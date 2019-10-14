@@ -1,5 +1,5 @@
 hasCJKLanguage = true
-baseurl = "http://keruru.net/"
+baseurl = "https://keruru.net/"
 languageCode = "ja"
 #theme = "hugo-zen"
 #theme = "angels-ladder"
