@@ -5,6 +5,7 @@ title = "quick-devstack検証環境をConoHaに構築する"
 categories = ["cloud"]
 slug = "2743"
 tags = ["OpenStack", "DevStack", "ConoHa"]
+image = "/images/logos/OpenStack.jpg"
 +++
 
 ConoHa上にAll-in-one環境を構築出来たならこのエントリーは無くともquick-devstack環境を構築出来る方がほとんどだと思いますが、ちょっとしたメモとして残しておきます。ConoHa上にDevStack環境を構築するので<a href="https://keruru.net/2016/07/08/conoha%e4%b8%8a%e3%81%abdevstack%e7%92%b0%e5%a2%83%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8btips/">基本的な事項は先のエントリー</a>を参照してくださいね。ここでは<a href="https://github.com/josug-book1-materials/quick-devstack">quick-devstack環境</a>（3ノード環境）を構築する時のメモになります。
