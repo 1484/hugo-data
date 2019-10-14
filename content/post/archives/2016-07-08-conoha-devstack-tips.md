@@ -7,7 +7,7 @@ slug = "conoha-devstack-tips"
 tags = ["OpenStack", "DevStack", "ConoHa"]
 +++
 
-<a href="http://keruru.net/2016/04/17/conoha%e3%81%abdevstack%e7%92%b0%e5%a2%83%e3%82%92%e6%a7%8b%e7%af%89/">ConoHa上にDevStack環境を構築</a>しようとしてちょっと詰まってました。去年くらいまではConoHaではnested KVMが有効だったようで、苦なくDevStack環境を構築出来たみたいです。実際検索をしてみるとそれらしきBlogや雑誌社のBlog記事も見つかります。
+<a href="https://keruru.net/2016/04/17/conoha%e3%81%abdevstack%e7%92%b0%e5%a2%83%e3%82%92%e6%a7%8b%e7%af%89/">ConoHa上にDevStack環境を構築</a>しようとしてちょっと詰まってました。去年くらいまではConoHaではnested KVMが有効だったようで、苦なくDevStack環境を構築出来たみたいです。実際検索をしてみるとそれらしきBlogや雑誌社のBlog記事も見つかります。
 
 しかし実際に先のエントリーの通りでDevStackのインストールは出来るものの、インスタンスを起動する事は出来ていませんでした。これはnested KVM環境では無くなった事でもうDevStack環境は構築出来なくなったものなんだろう、と勝手に思っていました。
 
