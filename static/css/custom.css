@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.post-full-content h1 { font-size: 3.2rem;!important; }
+.post-full-content h2 { font-size: 2.8rem;!important; }
+
+
+h1 { font-size: 2.8rem; }
+h2 { font-size: 1.7rem; }
+h3 { font-size: 1.5rem; }
+h4,
+h5,
+h6 { font-size: 1.3rem; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+
+header,
+footer {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+main {
+  margin: 4rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+}
+
+.header-logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid #E1E1E1;
+}
+
+.header-logo img:hover {
+  border-color: #F1F1F1;
+}
+
+.site-title {
+  margin-top: 2rem;
+}
+
+.entry-title {
+  margin-bottom: 0;
+}
+
+.entry-title a {
+  text-decoration: none;
+}
+
+.entry-meta {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+  color: #888;
+}
+
+.footer-link {
+  margin: 2rem 0;
+}
+
+.hr {
+  height: 1px;
+  margin: 2rem 0;
+  background: #E1E1E1;
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(#E1E1E1), to(white));
+  background: -webkit-linear-gradient(left, white, #E1E1E1, white);
+  background: linear-gradient(to right, white, #E1E1E1, white);
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+  overflow-x: scroll;
+}
+

@@ -1,0 +1,33 @@
+baseurl = "http://keruru.net/"
+languageCode = "ja"
+title = "KeruruDigit"
+#theme = "hugo_theme_beg"
+#theme = "hugo-zen"
+theme = "angels-ladder"
+author = "keruru"
+copyright = "keruru All rights reserved."
+# Enable comments by entering your Disqus shortname
+disqusShortname = "keruru"
+# Enable Google Analytics by entering your tracking code
+#googleAnalytics = ""
+Pagenate = "10"
+
+[params]
+  profile     = "/images/nigaoe.jpg"
+  twitter     = "https://twitter.com/keruru"
+#  facebook    = "https://www.facebook.com/takeru.ishibashi"
+  github      = "https://github.com/1484/"
+  gitlab      = "https://gitlab.com/1484/"
+  email       = "takeru@1974.jp"
+  subtitle    = "けるるの日常を綴る..."
+  showsRSS    = true
+  copyright   = "(C)Keruru. All Rights Reserved"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+[permalinks]
+    post = "/:year/:month/:day/:filename/"
+
