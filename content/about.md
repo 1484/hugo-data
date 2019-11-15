@@ -13,6 +13,7 @@ slug = "aboutme"
 
 # 愛用中のぱそこん
 
+- NEC LAVIE ProMobile
 - SAMSUNG Chromebook Pro
 - Surface Pro 4
 - ThinkPad T440s
@@ -29,6 +30,7 @@ slug = "aboutme"
 # 愛用中のPDA/Smartphone
 
 - Xperia 1(MAIN/docomo/SO-03L)
+- OPPO Reno-A(SUB/rakuten/SIM FREE)
 - iPad Pro 11inch(SUB/SIM FREE)
 
 <!-- 
