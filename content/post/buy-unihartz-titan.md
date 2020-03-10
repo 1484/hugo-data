@@ -1,7 +1,7 @@
 ---
 title: "Unihertz TiTAN買いました"
 date: 2020-03-10T14:29:34Z
-draft: true
+draft: false
 slug: buy-unihertz-titan
 tags: ["Unihertz", "android"]
 categories: ["gadget"]
