@@ -1,94 +1,44 @@
-hasCJKLanguage = true
-baseurl = "https://keruru.net/"
+baseURL = "https://keruru.net"
 languageCode = "ja"
-#theme = "hugo-zen"
-#theme = "angels-ladder"
-theme = "casper-two"
-author = "keruru"
-copyright = "keruru All rights reserved."
-# Enable comments by entering your Disqus shortname
+defaultContentLanguage = "ja"
+title = "Keruru Digit"
+theme = "dream"
+copyright = '(C)Keruru. All Rights Reserved'
+googleAnalytics = ""
 disqusShortname = "keruru"
-# Enable Google Analytics by entering your tracking code
-#googleAnalytics = ""
-Pagenate = "10"
-
-
-#pygmentsCodefences = true # ```で囲んだコードをハイライトする設定
-#pygmentsUseClasses = true # <span stype="xxxx">で色付けをするのではなく、<span class="className">classで分ける
-#pygmentsCodeFencesGuessSyntax = true
-#pygmentsStyle = "monokai"
-#pygmentsoptions = "linenos=inline"
-  title       = "KeruruDigit"
+enableRobotsTXT = true
+hasCJKLanguage = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
-  title       = "KeruruDigit"
-  description = "Keruru's Personal WebSite"
-  profile     = "/images/nigaoe.jpg"
-  twitter     = "https://twitter.com/keruru"
-#  facebook    = "https://www.facebook.com/takeru.ishibashi"
-  github      = "https://github.com/1484/"
-  email       = "takeru@1974.jp"
-  subtitle    = "けるるの日常を綴る..."
-  showsRSS    = true
-  copyright   = "(C)Keruru. All Rights Reserved"
-  cover       = "img/hawaii.jpg"
-  twitterName = "keruru"
-  githubName  = "1484"
-  orgName     = "Keruru"
-  author      = "Keruru"
-  authorAvatar= "img/avatar.jpg"
-  authorLocation = "Tokyo, JP"
-  authorDescription = "仮想化勉強中人材, 大胆素敵"
-  singleViewStyle = "casper"
-  googleAnalytics ="UA-117163705-1"
-#  customCSS = ["/css/syntax.css"]
+  # background = "black"
+  backgroundImage = "/img/hawaii.jpg"
+  linkColor = "seagreen"
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  archive = "archives"
+  author = "keruru"
+  description = "けるるの日常を綴る..."
+  avatar= "/img/avatar.jpg"
+  motto = "けるるの日常を綴る..."
+  
+  email = "takeru@1974.jp"
+  twitter = "keruru"
+  facebook = "takeru.ishibashi"
+  instagram = "keruru03"
+  #linkedin = ""
+  github = "1484"
+  #stackoverflow = ""
+  #codepen = ""
 
-[permalinks]
-    post = "/:year/:month/:day/:filename/"
+  #siteStartYear = 2016
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 200
+  #favicon = "/favicon.ico"
 
-[[menu.main]]
-  name = "Computer"
-  url = "/categories/computer"
-  weight = 100
+  # dark mode
+  darkLinkColor = "darkseagreen"
+  darkNav = true
+  dark404Button = true
 
-[[menu.main]]
-  name = "Cloud"
-  url = "/categories/cloud"
-  weight = 90
-
-[[menu.main]]
-  name = "Gadget"
-  url = "/categories/gadget"
-  weight = 80
-
-[[menu.main]]
-  name = "trip"
-  url = "/categories/trip"
-  weight = 70
-
-[[menu.main]]
-  name = "motorcycle"
-  url = "/categories/motorcycle"
-  weight = 60
-
-[[menu.main]]
-  name = "other"
-  url = "/categories/things"
-  weight = 10
-
-
-[[menu.main]]
-  name = "AboutMe"
-  url = "/aboutme/"
-  weight = 1
-
+enableGitInfo = true
