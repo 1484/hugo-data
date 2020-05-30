@@ -28,7 +28,7 @@ cover: "/images/logos/OpenStack.jpg"
 この状態でまずはcontroller nodeで変更されるか確認してみます。様々な確認方法があるかと思いますが、ここではhypervisor listを見てみる事にしました。
 
 
-```
+{{< highlight bash >}}
 ubuntu@stack01:~/devstack$ openstack hypervisor list
 +----+---------------------+-----------------+----------------+-------+
 | ID | Hypervisor Hostname | Hypervisor Type | Host IP        | State |
@@ -37,11 +37,12 @@ ubuntu@stack01:~/devstack$ openstack hypervisor list
 |  2 | stack02             | QEMU            | 192.168.100.11 | up    |
 |  3 | stack03             | QEMU            | 192.168.100.12 | up    |
 +----+---------------------+-----------------+----------------+-------+
-```
+{{< / highlight >}}
+
 
 この状態ではまだ適用されていません。nova-computeが起動する際に情報をcontrollerへ送るのでstack04のcompute node側でnova-computeサービスをrestartしてあげる必要があります。restartの方法はHUPを送るでも良いのでしょうけれども、まだscreenを有効にしているDevStackなので、screenを開いてn-cpu のタブでCtrl+cを送信しプロセスを終了、!! にて再起動してあげればOKです。この状態でまたcontroller nodeで確認をしてみました。
 
-```
+{{< highlight bash >}}
 ubuntu@stack01:~/devstack$ openstack hypervisor list
 +----+---------------------+-----------------+----------------+-------+
 | ID | Hypervisor Hostname | Hypervisor Type | Host IP        | State |
@@ -62,7 +63,7 @@ ubuntu@stack01:~/devstack$ openstack hypervisor list
 |  4 | stack04             | QEMU            | 192.168.100.12 | up    |
 +----+---------------------+-----------------+----------------+-------+
 ubuntu@stack01:~/devstack$ 
-```
+{{< / highlight >}}
 
 しばらくはstack03とstack04の両方がup Stateでしたが、暫くするとstack03がdown Stateに変更されました。
 
@@ -89,7 +90,7 @@ ubuntu@stack01:~/devstack$
 
 なるほどなるほど。指定できるのはID onlyとの事なのでIDを調べる必要がありますのでまずはlistコマンドで確認します。
 
-```
+{{< highlight bash >}}
 ubuntu@stack01:~/devstack$ openstack compute service list
 +----+------------------+---------+----------+---------+-------+----------------------------+
 | ID | Binary           | Host    | Zone     | Status  | State | Updated At                 |
@@ -103,11 +104,11 @@ ubuntu@stack01:~/devstack$ openstack compute service list
 | 11 | nova-compute     | stack04 | nova     | enabled | up    | 2018-08-16T03:47:05.000000 |
 +----+------------------+---------+----------+---------+-------+----------------------------+
 ubuntu@stack01:~/devstack$ 
-```
+{{< / highlight >}}
 
 これで消したい情報がID 10であると確認できましたので、deleteで削除して再度listで確認してみましょう。
 
-```
+{{< highlight bash >}}
 ubuntu@stack01:~/devstack$ openstack compute service delete 10
 ubuntu@stack01:~/devstack$ 
 ubuntu@stack01:~/devstack$ openstack compute service list
@@ -122,11 +123,11 @@ ubuntu@stack01:~/devstack$ openstack compute service list
 | 11 | nova-compute     | stack04 | nova     | enabled | up    | 2018-08-16T03:48:05.000000 |
 +----+------------------+---------+----------+---------+-------+----------------------------+
 ubuntu@stack01:~/devstack$ 
-```
+{{< / highlight >}}
 
 ばっちり消えました！では最後にhypervisor listで確認してみます。
 
-```
+{{< highlight bash >}}
 ubuntu@stack01:~/devstack$ openstack hypervisor list
 +----+---------------------+-----------------+----------------+-------+
 | ID | Hypervisor Hostname | Hypervisor Type | Host IP        | State |
@@ -136,7 +137,7 @@ ubuntu@stack01:~/devstack$ openstack hypervisor list
 |  4 | stack04             | QEMU            | 192.168.100.12 | up    |
 +----+---------------------+-----------------+----------------+-------+
 ubuntu@stack01:~/devstack$ 
-```
+{{< / highlight >}}
 
 バッチリ期待通りの動作になっています。素晴らしい。今回はnova(compute)サービスに特化しましたが、他のサービスではどうするかなど一度ちゃんと理解しておく必要がありますね。
 
