@@ -2,7 +2,8 @@
 date = "2017-09-19T00:23:55+09:00"
 description = ""
 title = "Hugoへの移行"
-tags = ["Hugo", "WordPress", "blog", "CMS"]
+tags = ["Hugo", "WordPress"]
+categories = ["things"]
 +++
 
 # Hugoにするきっかけ

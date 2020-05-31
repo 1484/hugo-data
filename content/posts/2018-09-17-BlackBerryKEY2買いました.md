@@ -2,7 +2,7 @@
 title: "BlackBerryKEY2買いました"
 date: 2018-09-17T12:46:29+09:00
 slug: BlackBerryKEY2買いました
-tags: ["BlackBerry"]
+tags: ["BlackBerry", "android"]
 categories: ["gadget"]
 cover: "/images/2018/09/blackberryKEY2.jpg"
 

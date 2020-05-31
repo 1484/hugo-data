@@ -4,7 +4,7 @@ date: 2018-08-14T22:41:20+09:00
 draft: false
 slug: computeノードのhostnameを変更する
 categories: ["cloud"]
-tags: ["devstack", "openstack", "nova"]
+tags: ["devstack", "openstack"]
 cover: "/images/logos/OpenStack.jpg"
 ---
 
