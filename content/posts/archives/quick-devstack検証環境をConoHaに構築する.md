@@ -80,7 +80,7 @@ HOST_IP=192.168.100.2
 
 これで準備万端です。まずはcontroller nodeのstack01で./stack.shを実行し、無事インストールされた事を確認したらstack02とstack03の./stack.shを実行します。02と03に順序性はありませんが、インストールの途中でstack01との通信するところがありますので必ずstack01が完了してから実施しましょう。
 
-これでquick-devstackの環境をConoHa上に構築出来ましたので<a  href="http://www.amazon.co.jp/gp/product/4798139785/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4798139785&linkCode=as2&tag=kerurudigit-22">OpenStackクラウドインテグレーション オープンソースクラウドによるサービス構築入門</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kerurudigit-22&l=as2&o=9&a=4798139785" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />に記載の検証手順を書籍を読みながら実施することが出来る様になります。
+これでquick-devstackの環境をConoHa上に構築出来ましたので<a  href="https://amzn.to/36IgJ2X">OpenStackクラウドインテグレーション オープンソースクラウドによるサービス構築入門</a>に記載の検証手順を書籍を読みながら実施することが出来る様になります。
 
 書籍を読むだけでなく実際に環境を触りながら学習することで学習密度が各段にアップし理解が深まりますので、実際に環境を触りながら学習することを強くおススメします。
 
@@ -88,8 +88,7 @@ HOST_IP=192.168.100.2
 
 ConoHaさんありがとう！
 
-
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=kerurudigit-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4798139785" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=kerurudigit-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4798139785&linkId=735ca7fb8af2e7511b37118470b5c6e3"></iframe>
 
 <hr />
 追記、local.confファイルに<strong>ADMIN_PASSWORD</strong>という行があり、ブラウザで入る時や各種APIを使った通信などで用いるパスワードですが検証のテンポラリ環境とは言え、デフォルトでは脆弱なので変更しましょう。
