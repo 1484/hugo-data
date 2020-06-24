@@ -1,7 +1,6 @@
 ---
 title: "一歩先ゆく台湾のエコ"
 date: 2017-09-08T23:11:59+09:00
-draft: false
 slug: taiwan-bento
 tags: ["Taiwan", "Eco"]
 cover: /images/2017/09/taiwan-bento.jpg
