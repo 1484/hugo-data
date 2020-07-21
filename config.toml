@@ -32,6 +32,8 @@ hasCJKLanguage = true
   #stackoverflow = ""
   #codepen = ""
 
+  rss = true
+
   #siteStartYear = 2016
 
   #favicon = "/favicon.ico"
@@ -41,4 +43,9 @@ hasCJKLanguage = true
   darkNav = true
   dark404Button = true
 
-enableGitInfo = true
+  enableGitInfo = true
+
+  showSummaryCoverInPost = true
+
+  customCSS = ["/css/custom.css"]
+

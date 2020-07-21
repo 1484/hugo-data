@@ -27,8 +27,8 @@ img {
 
 header,
 footer {
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   margin: 4rem 0;
-  text-align: center;
 }
 
 main {
@@ -91,5 +91,11 @@ samp {
   _font-family: 'courier new', monospace;
   font-size: 1em;
   overflow-x: scroll;
+}
+
+.ui.image {
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
 }
 
