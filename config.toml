@@ -49,3 +49,6 @@ hasCJKLanguage = true
 
   customCSS = ["/css/custom.css"]
 
+  categoriesLimitInHeader = 7
+  # headerBottomText = ""
+
