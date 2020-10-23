@@ -5,8 +5,8 @@ lastmod: 2020-10-23T19:24:30+09:00
 author: Keruru
 # authorlink: https://author.site
 cover: /img/cover.jpg
-categories: ["category1"]
-tags: ["tag1", "tag2"]
+categories: ["computer"]
+tags: ["linux", "openSUSE"]
 # showcase: true
 cover: "/images/logos/linux.png"
 ---
