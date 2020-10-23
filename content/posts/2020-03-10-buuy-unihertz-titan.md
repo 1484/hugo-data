@@ -5,7 +5,8 @@ draft: false
 slug: buy-unihertz-titan
 tags: ["Unihertz", "android"]
 categories: ["gadget"]
-cover: "/images/2020/03/unihertz-titan.jpg"
+#cover: "/images/2020/03/unihertz-titan.jpg"
+cover: "https://live.staticflickr.com/65535/49842217046_a98f104e19_c.jpg"
 
 ---
 
