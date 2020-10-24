@@ -1,7 +1,9 @@
 # hugo-data
+[keruru.net](https://keruru.net)の元データです。
 
 # Update手順
-記事の追加はブランチを切って行いましょう。
+記事の追加はブランチを切って行いましょう。自分向けのメモです。(gitに慣れてきたけどたまに忘れるので)
+GithubCLIを入れていたら `gh repo view` でこのメモ見れるのでメモしとくと楽ですよ。
 
 ```
 $ git branch new-branch  # new-branchと言うブランチを切る
