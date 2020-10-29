@@ -5,7 +5,7 @@ title = "About Me"
 slug = "aboutme"
 +++
 
-{{< img src="/images/nigaoe.jpg">}}
+{{% figure src="/images/nigaoe.jpg" %}}
 
 # ペンネーム/Nick
 
