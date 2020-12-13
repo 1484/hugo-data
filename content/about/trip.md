@@ -1,5 +1,5 @@
 +++
-date = "2020-12-13T02:00:00+09:00"
+date = "1974-02-17T02:00:00+09:00"
 draft = false
 title = "旅の記録"
 categories = ["things"]
