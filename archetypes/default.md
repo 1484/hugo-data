@@ -5,7 +5,7 @@ draft: true
 slug: null
 tags: ["", ""]
 categories: [""]
-image: "/images/201y/mm/files.jpg"
+cover: "/images/201y/mm/files.jpg"
 
 ---
 
