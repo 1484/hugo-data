@@ -6,7 +6,7 @@ categories: ["cloud"]
 tags: ["OpenStack","devstack","ocata","linux"]
 slug: qucik-devstack-2017
 cover: "/images/logos/OpenStack.png"
-tags: ["DevStack", "OpenStack", "JOSUG"]
+tags: ["DevStack", "OpenStack"]
 ---
 
 # OpenStackの学習といえばこの本！の内容がもう古い！

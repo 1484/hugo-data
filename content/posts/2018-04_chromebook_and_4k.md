@@ -4,7 +4,7 @@ date: 2018-04-23T22:37:07+09:00
 slug: "chromebook proに4Kディスプレイを繋いでみた"
 cover: "/images/category/chromebook.jpg"
 categories: ["gadget"]
-tags: ["chromebook", "4K", "USB-C"]
+tags: ["chromebook"]
 ---
 
 愛用しているSAMSUNG chromebook proですが、潔い事にInterfaceとしてはUSB-Cが2ポートと3.5mmオーディオジャックしかない。
