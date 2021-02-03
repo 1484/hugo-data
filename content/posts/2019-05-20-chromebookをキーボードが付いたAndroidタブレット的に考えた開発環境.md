@@ -2,7 +2,7 @@
 title: "Chromebookをキーボードが付いたAndroidタブレット的に考えた開発環境"
 date: 2019-05-20T15:00:39+09:00
 slug: chromebookをキーボードが付いたAndroidタブレット的に考えた開発環境
-tags: ["chromebook", "dev"]
+tags: ["chromebook", "develop"]
 categories: ["gadget"]
 cover: "/images/2019/05/chromebook-develop.jpg"
 

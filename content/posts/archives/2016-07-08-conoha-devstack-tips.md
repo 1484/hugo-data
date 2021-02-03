@@ -14,7 +14,6 @@ cover = "/images/logos/OpenStack.jpg"
 
 しかし、そもそもOpenStackってlibvirtを制御してクラウドサービスっぽいものを作る基盤、って考えたらlibvirtでqemuが動くなら別にインスタンス立ち上げるのはKVMに限る必要は無いしqemuで動くんじゃないの？と思い始めました。実際nova.confの設定にはvirt_type=qemuと言う設定があります。つまりnested KVM環境では無くなった事で手軽に構築出来なくなったけど、実際動かない原因とは別なんじゃないか、と言う疑念が浮かんだので今週ちょっと時間を作ってちゃんとログを追っかける事にしました。
 
-<!--more-->
 
 ちなみにDevStackのインストール自体は普通にインストールが完了します。どこでエラーとなるかと言うとインスタンスを立ち上げようとすると立ち上がらず、エラーを確認すると「利用可能なcomputeノードが無いよ(No valid host was found. There are not enough hosts available.)」と言う内容でした。/opt/stack/logs/n-cond.logを確認すると
 

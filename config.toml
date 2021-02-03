@@ -9,13 +9,14 @@ disqusShortname = "keruru"
 enableRobotsTXT = true
 hasCJKLanguage = true
 
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
 [params]
-  # background = "black"
+  #background = "black"
   backgroundImage = "/img/hawaii.jpg"
   linkColor = "seagreen"
 
@@ -35,7 +36,7 @@ hasCJKLanguage = true
 
   rss = true
 
-  #siteStartYear = 2016
+  siteStartYear = 2006
 
   #favicon = "/favicon.ico"
 
@@ -54,4 +55,15 @@ hasCJKLanguage = true
 
   categoriesLimitInHeader = 7
   # headerBottomText = ""
+
+  enableSearch = true
+
+  highlightjs = true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsExtraLanguages = ["ocaml"]
+  highlightjsTheme = "gruvbox-light"
+  highlightjsThemeDark = "gruvbox-dark"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
