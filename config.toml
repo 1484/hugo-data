@@ -8,7 +8,7 @@ googleAnalytics = ""
 disqusShortname = "keruru"
 enableRobotsTXT = true
 hasCJKLanguage = true
-
+pygmentsCodeFences = true
 
 [markup]
   [markup.goldmark]
