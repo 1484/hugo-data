@@ -5,12 +5,13 @@ title = "愛用中のPDA/SmartPhone"
 slug = "smartphone"
 +++
 
-- Xperia 1(MAIN/docomo/SO-03L)
+- iPhoneSE 2nd(MAIN/docomo)
 - Unihertz TiTAN(SUB/docomo/SIM FREE)
 - OPPO Reno-A(SUB/rakuten/SIM FREE)
 - iPad Pro 11inch(SUB/docomo/SIM FREE)
 
 <!-- 
+- Xperia 1(MAIN/docomo/SO-03L)
 - Xperia XZ Premium(SUB/SIM FREE)
 - BlackBerry Priv(SUB/SIM FREE)
 - HUAWEI MediaPad M2(貸し出し中/SIM FREE)
