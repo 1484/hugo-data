@@ -2,7 +2,7 @@
 title: Cloudflare PagesでHUGOのコンテンツを公開
 date: 2021-04-17T10:00:00+09:00
 lastmod: 2021-04-17T10:00:00+09:00
-draft: true
+draft: false
 author: Keruru
 # authorlink: https://author.site
 categories: ["cloud"]
