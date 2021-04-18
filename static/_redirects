@@ -1,2 +1,26 @@
 # Redirect default Netlify subdomain to primary domain
-http://kerurunet.netlify.com/* http://keruru.net/:splat 301!
+/posts/buy-unihertz-titan/ /posts/2020/03/10/buy-unihertz-titan/ 301
+/posts/opcel資格更新に備えよう/ /posts/2019/03/opcel資格更新に備えよう/ 301
+/posts/cloud9からcore-serverへ移行/ /posts/2019/10/cloud9からcore-serverへ移行/ 301
+/posts/chromebookをキーボードが付いたandroidタブレット的に考えた開発環境/ /posts/2019/05/chromebookをキーボードが付いたandroidタブレット的に考えた開発環境/ 301
+/posts/chromebookと生きる/ /posts/2018/12/chromebookと生きる/ 301
+/posts/紙でできたお財布/ /posts/2018/12/紙でできたお財布/ 301
+/posts/usb-c旅先充電環境/ /posts/2018/11/usb-c旅先充電環境/ 301
+/posts/blackberrykey2買いました/ /posts/2018/09/blackberrykey2買いました/ 301
+/posts/ubuntumateforgpdpocket/ /posts/2018/10/ubuntumateforgpdpocket/ 301
+/posts/バンコクチェンマイ旅行/ /posts/2018/09/バンコクチェンマイ旅行/ 301
+/posts/computeノードのhostnameを変更する/ /posts/2018/08/computeノードのhostnameを変更する/ 301
+/posts/2018-05-05_chromebook_2_amazonphotos/ /posts/2018/05/chromebookからamazonプライムフォトへ写真を保存/ 301
+/posts/chromebook-proに4kディスプレイを繋いでみた/ /posts/2018/04/chromebook-proに4kディスプレイを繋いでみた/ 301
+/posts/chromebook_develop/ /posts/2018/04/chromebook_develop/ 301
+/posts/qucik-devstack-2017/ /posts/2018/02/qucik-devstack-ocata/ 301
+/posts/consider_chromebook/ /posts/2018/03/chromebookを検討する/ 301
+/posts/androidからnginxのvirtualhostに繋ごうとしてハマった/ /posts/2017/10/androidからnginxのvirtualhostに繋ごうとしてハマった/ 301
+/posts/2017/taiwan-bento/ /posts/2017/09/一歩先行く台湾のエコ/ 301
+/posts/archives/2786/ /posts/2017/02/opcelに合格しました/ 301
+/posts/archives/2777/ /posts/2016/08/ちょっとワクワクするよhp_elite_x3/ 301
+/posts/archives/2762/ /posts/2016/08/ricoh_gr2へandroid6.0.1の端末でアクセスする/ 301
+/posts/archives/2743/ /posts/2016/07/quick-devstack検証環境をconohaに構築する/ 301
+/posts/archives/conoha-devstack/ /posts/2016/04/conohaにdevstack環境を構築/ 301
+/posts/archives/2649/ /posts/2016/04/devstackを会社のproxy環境下でも構築したい/ 301
+/posts/archives/2671/ /posts/2016/05/現在の室温をtweetしよう/ 301

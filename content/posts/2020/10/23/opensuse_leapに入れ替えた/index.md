@@ -7,7 +7,7 @@ author: Keruru
 categories: ["computer"]
 tags: ["linux", "openSUSE"]
 # showcase: true
-cover: "/images/logos/linux.png"
+cover: "linux.png"
 ---
 # Windowsじゃ駄目なんですか？
 
@@ -28,7 +28,8 @@ Linuxと言われて思い浮かぶ筆頭としたら今はUbuntuでしょう。
 
 今時suspendで困らないのですがせっかく機能としてあるのでハイバネーションも使えるようにしておきたいですね。ハイバネーションを使えるようにするには搭載メモリと同等のサイズとなるようにswapパーテーションを用意したりしなくてはなりませんが、これをインストーラーのメニューから設定できる数少ないディストリビューションになりつつあります。そんなこんなでopenSUSEが個人的にはお気に入りなのです。
 
-{{% figure src="openSUSE_install_test-2020-10-22-19-18-06.png" alt="ファイルシステムオプションで設定出来ます" %}}
+{{< fancybox "." "openSUSE_install_test-2020-10-22-19-18-06.png" "ファイルシステムオプションで設定出来ます" "gallery" >}}
+
 
 ディスクのレイアウト設定で当然熟練者向けの方でも設定できますが、簡単に設定を行える「ガイド付き設定」の方でもちゃんとこのハイバネーションのための設定が出て来るのはとても楽ちんです。
 
@@ -42,7 +43,8 @@ Linuxと言われて思い浮かぶ筆頭としたら今はUbuntuでしょう。
 
 ちゃんとMozcも入っていて日本語変換も出来るのですが・・・
 
-{{% figure src="openSUSE_install_test-2020-10-22-19-55-28.png" alt="Mozc - JP layoutが勝利の鍵" %}}
+{{< fancybox "." "openSUSE_install_test-2020-10-22-19-55-28.png" "Mozc - JP layoutが勝利の鍵" "gallery" >}}
+
 
 色々トライしてみると設定の**地域と言語**にてインストール直後は『日本語(Mozc)』が選択されているとおもいますが、これを『日本語(Mozc - JP layout)』にしてあげると良いようです。インストール時に日本語キーボード選択したらこちらが選択されるようになると良いのですが。
 
