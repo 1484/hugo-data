@@ -42,4 +42,4 @@ Docker機能拡張からHugoのコンテナを起動、中央の記事執筆画�
 記事が書きあがったらvscodeなのでそのままgithubに記事をcommit,pushする事で、あとはCloudflare pagesがbuildしてコンテンツを配置してくれます。素晴らしい。
 
 ## 今後検討したいこと
-あまり自動化が出来ていないなと感じています。WSLの画面からvscodeを用いてMarkdownファイルを開く所から記事の編集を開始しているのですが、 `~/hugo` 配下のMarkdownファイルをvscodeで開いた事を検出した場合( `$pwd` とかで環境path取れると思うので)自動でDockerのHugoコンテナを自動起動してBrowser Previewも自動で起動してきてくれる、なんて所まで出来るとさらにスマートなので検討したい。
+すべて環境がVisual Studio Codeからアクセス出来たりとかなりスマートかつシンプルになったなとは思いますが、あまり自動化が出来ていないなと感じています。WSLの画面からvscodeを用いてMarkdownファイルを開く所から記事の編集を開始しているのですが、 `~/hugo` 配下のMarkdownファイルをvscodeで開いた事を検出した場合( `$pwd` とかで環境path取れると思うので)DockerのHugoコンテナを自動起動してBrowser Previewも自動で起動してきてくれる、なんて所まで出来るとさらにスマートなので検討したい。
