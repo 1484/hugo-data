@@ -1,4 +1,4 @@
-baseURL = "https://keruru.net"
+# baseURL = "https://keruru.net"
 languageCode = "ja"
 defaultContentLanguage = "ja"
 title = "Keruru Digit"
