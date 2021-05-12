@@ -1,7 +1,7 @@
 ---
 title: Cloudflare PagesでHUGOのコンテンツを公開
 date: 2021-04-17T10:00:00+09:00
-lastmod: 2021-04-17T10:00:00+09:00
+lastmod: 2021-05-12T13:00:00+09:00
 draft: false
 author: Keruru
 # authorlink: https://author.site
@@ -27,12 +27,10 @@ Freeプランで使える制約は下記のとおりです。詳細は[ドキュ
 - 1ファイルあたり25MBまで
 - データ転送量無制限!!
 
-previewのbuildって何のことだろう？と思っていたら、DNSをCloudflareで運用している場合のみ使える機能になりますが、githubでbranchを切った状態でプルリクエストを送ると、その状態でbuildしてプルリクエストを送った内容を含んだpreview用のURLを作ってくれると言う物でした。これ地味にすごい！って思ったのも移行を考えた１つの理由です。
+previewのbuildって何のことだろう？と思っていたら、githubでbranchを切った状態でpushすると、branchをプレビュー状態としてbuildしてbranchの内容でpreview用のURLを作ってくれると言う物でした。これ地味にすごい！って思ったのも移行を考えた１つの理由です。branch切って修正してはpushしていけば、実環境を用いてpreview出来るんですよ。しゅごい。
 
 ### preview buildはまだ微妙? いえ、最高です!!
-実際に使ってみるとpreview buildにも課題が見えました。HUGOで運用していますがHUGOの設定ファイル(config.toml)に `baseURL` を入れているため確かにpreview buildのURLを作ってくれてコンテンツ変更を行ったプルリクエストの内容を含むサイトが出来るものの、`baseURL` を変更してbuildしてくれる訳では無いのでpreviewとしてはまだ使い辛いと感じました。
-
-%%この辺りの連携が進むと最高だと思うので今後に期待したいと思います。%%
+実際に使ってみるとpreview buildにも課題が見えました。HUGOで運用していますがHUGOの設定ファイル(config.toml)に `baseURL` を入れているため確かにpreview buildのURLを作ってくれてコンテンツ変更を行ったプルリクエストの内容を含むサイトが出来るものの、`baseURL` を変更してbuildしてくれる訳では無いのでpreviewとしてはまだ使い辛いと感じました。でもそれは誤解でした。
 
 ふと、それだったらbaseURL指定しなければ良いんじゃないの？！と思い立ってbaseURL指定を "/" に変更してみました。これでばっちり。これでbranchを用いてpreviewが出来ます。しかも先に記述している通りpreviewのbuildは無制限。もうこれはiPadのために生まれてきた機能と言っても過言ではないです。
 
@@ -41,6 +39,8 @@ iPadで[Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id89
 {{< fancybox "." "cloudflare_pages_deploys.png" "cloudflare Pagesのデプロイ一覧ページ" "gallery" >}}
 
 ノートパソコンなどでHugoを用いている場合 `hugo server` コマンドを用いてlocalhost:1313にWebサーバを立ててブラウザでプレビューしながら作業する事が多いと思います。しかしiPad上ではHugoが動きませんのでどうしても想像だったりMarkdown Editorのプレビューに頼るしかありませんでした。しかしこれをcloudflare pagesで担ってもらえる事でbuildの度にcloudflare pagesのデプロイページに行ってプレビューのURLを知る必要はありますが、iPadでプレビューを見ることも全部サーバレスで出来るんです。私はVPS上でプレビュー専用のCI/CD環境を作ってましたがこれでもう要らないですね。cloudflare pagesだけで完結します。素晴らしい!!
+
+**cloudflare pagesをHugoで使う人は可能ならbaseURLは "/" で運用するのが良いです**
 
 # 構築のポイント
 構築自体はとても簡単で[公式に手順も公開](https://developers.cloudflare.com/pages/how-to/deploy-a-hugo-site)されていますのでその通りに実施するだけでHUGOのサイトが公開できます。英語ですが難しい事書いてないので大丈夫。
