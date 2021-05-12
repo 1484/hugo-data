@@ -21,17 +21,26 @@ Freeプランで使える制約は下記のとおりです。詳細は[ドキュ
 個人ユースでは超える事は無いでしょうが、[Proプラン以上の制約はこちら](https://pages.cloudflare.com/#pricing)になります。
 
 - Buildは月間500回まで
-    - previewのbuildは無制限
+    - previewのbuildは無制限!!
 - 同時にBuild出来るのは1Buildまで
 - ファイル数は20,000ファイルまで
 - 1ファイルあたり25MBまで
+- データ転送量無制限!!
 
 previewのbuildって何のことだろう？と思っていたら、DNSをCloudflareで運用している場合のみ使える機能になりますが、githubでbranchを切った状態でプルリクエストを送ると、その状態でbuildしてプルリクエストを送った内容を含んだpreview用のURLを作ってくれると言う物でした。これ地味にすごい！って思ったのも移行を考えた１つの理由です。
 
-### preview buildはまだ微妙
+### preview buildはまだ微妙? いえ、最高です!!
 実際に使ってみるとpreview buildにも課題が見えました。HUGOで運用していますがHUGOの設定ファイル(config.toml)に `baseURL` を入れているため確かにpreview buildのURLを作ってくれてコンテンツ変更を行ったプルリクエストの内容を含むサイトが出来るものの、`baseURL` を変更してbuildしてくれる訳では無いのでpreviewとしてはまだ使い辛いと感じました。
 
-この辺りの連携が進むと最高だと思うので今後に期待したいと思います。
+%%この辺りの連携が進むと最高だと思うので今後に期待したいと思います。%%
+
+ふと、それだったらbaseURL指定しなければ良いんじゃないの？！と思い立ってbaseURL指定を "/" に変更してみました。これでばっちり。これでbranchを用いてpreviewが出来ます。しかも先に記述している通りpreviewのbuildは無制限。もうこれはiPadのために生まれてきた機能と言っても過言ではないです。
+
+iPadで[Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807)を用いてcloneしたHugoのリポジトリでbranchを切り編集、pushします。その瞬間にプレビューのbuildが走ります。previewのbuildが完了するとcloudflare pagesのデプロイページにデプロイ単位で random.リポジトリ名.pages.dev と言うリンクが生まれます。ここにアクセスするとプレビューが見れるんです。
+
+{{< fancybox "." "cloudflare_pages_deploys.png" "cloudflare Pagesのデプロイ一覧ページ" "gallery" >}}
+
+ノートパソコンなどでHugoを用いている場合 `hugo server` コマンドを用いてlocalhost:1313にWebサーバを立ててブラウザでプレビューしながら作業する事が多いと思います。しかしiPad上ではHugoが動きませんのでどうしても想像だったりMarkdown Editorのプレビューに頼るしかありませんでした。しかしこれをcloudflare pagesで担ってもらえる事でbuildの度にcloudflare pagesのデプロイページに行ってプレビューのURLを知る必要はありますが、iPadでプレビューを見ることも全部サーバレスで出来るんです。私はVPS上でプレビュー専用のCI/CD環境を作ってましたがこれでもう要らないですね。cloudflare pagesだけで完結します。素晴らしい!!
 
 # 構築のポイント
 構築自体はとても簡単で[公式に手順も公開](https://developers.cloudflare.com/pages/how-to/deploy-a-hugo-site)されていますのでその通りに実施するだけでHUGOのサイトが公開できます。英語ですが難しい事書いてないので大丈夫。
