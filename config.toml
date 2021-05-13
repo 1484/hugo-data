@@ -54,6 +54,7 @@ pygmentsCodeFences = true
   showSummaryCoverInPost = true
 
   categoriesLimitInHeader = 7
+  maxTags = 5
   # headerBottomText = ""
 
   enableSearch = true
