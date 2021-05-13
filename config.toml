@@ -65,7 +65,7 @@ pygmentsCodeFences = true
   highlightjsThemeDark = "gruvbox-dark"
  
   # options
-  showSummaryCoverInPost = true
+  # showSummaryCoverInPost = true
   # hasTwitterEmbed = true
   # reversePostAndAside = true
   # shareInAside = true
