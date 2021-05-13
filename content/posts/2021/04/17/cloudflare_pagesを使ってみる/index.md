@@ -21,7 +21,7 @@ Freeプランで使える制約は下記のとおりです。詳細は[ドキュ
 個人ユースでは超える事は無いでしょうが、[Proプラン以上の制約はこちら](https://pages.cloudflare.com/#pricing)になります。
 
 - Buildは月間500回まで
-    - previewのbuildは無制限!!
+    - previewのbuildも出来る
 - 同時にBuild出来るのは1Buildまで
 - ファイル数は20,000ファイルまで
 - 1ファイルあたり25MBまで
@@ -34,7 +34,7 @@ previewのbuildって何のことだろう？と思っていたら、githubでbr
 
 ふと、それだったらbaseURL指定しなければ良いんじゃないの？！と思い立ってbaseURL指定を "/" に変更してみました。これでばっちり。これでbranchを用いてpreviewが出来ます。しかも先に記述している通りpreviewのbuildは無制限。もうこれはiPadのために生まれてきた機能と言っても過言ではないです。
 
-iPadで[Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807)を用いてcloneしたHugoのリポジトリでbranchを切り編集、pushします。その瞬間にプレビューのbuildが走ります。previewのbuildが完了するとcloudflare pagesのデプロイページにデプロイ単位で random.リポジトリ名.pages.dev と言うリンクが生まれます。ここにアクセスするとプレビューが見れるんです。
+iPadで[Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807)を用いてcloneしたHugoのリポジトリでbranchを切り編集、pushします。その瞬間にプレビューのbuildが走ります。previewのbuildが完了するとcloudflare pagesのデプロイページにデプロイ単位で ランダムな文字列.リポジトリ名.pages.dev と言うリンクが生まれます。ここにアクセスするとプレビューが見れるんです。
 
 {{< fancybox "." "cloudflare_pages_deploys.png" "cloudflare Pagesのデプロイ一覧ページ" "gallery" >}}
 
