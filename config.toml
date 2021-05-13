@@ -65,16 +65,6 @@ pygmentsCodeFences = true
   highlightjsTheme = "gruvbox-light"
   highlightjsThemeDark = "gruvbox-dark"
  
-  # options
-  # showSummaryCoverInPost = true
-  # hasTwitterEmbed = true
-  # reversePostAndAside = true
-  # shareInAside = true
-
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-
   [params.advanced]
     customCSS = ["css/custom.css"]
     customJS = []
@@ -83,3 +73,7 @@ pygmentsCodeFences = true
     jsDate = true
     jsDateFormat = "yyyy年MM月dd日"
     # jsDateFormat = "yyyy年MM月dd日，cccc"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
