@@ -39,8 +39,6 @@ iPadで[Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id89
 ### Aliasも作られるのでアクセスも楽々
 デプロイ単位でランダムなリンクが生成されるわけですが、もう1つアクセスしやすいリンクが作られます。 `ブランチ名.リポジトリ名.pages.dev` と言うもの。此方でしたらランダムな文字列と違いCloudflare Pagesのデプロイページを参照しに行かなくても確認が容易ですね。
 
-ただし編集のプレビューとして小まめに修正・デプロイしていると上記の制約以外の制約にひっかかります。特に記載がないので詳細がわからないのですが、短時間にデプロイを繰り返すと何らか不正と判断されてデプロイしてくれなくなります。この辺りの数字もちゃんと制約として明記して欲しいものです。
-
 {{< fancybox "." "cloudflare_pages_deploys.png" "cloudflare Pagesのデプロイ一覧ページ" "gallery" >}}
 
 ノートパソコンなどでHugoを用いている場合 `hugo server` コマンドを用いてlocalhost:1313にWebサーバを立ててブラウザでプレビューしながら作業する事が多いと思います。しかしiPad上ではHugoが動きませんのでどうしても想像だったりMarkdown Editorのプレビューに頼るしかありませんでした。しかしこれをcloudflare pagesで担ってもらえる事でbuildの度にcloudflare pagesのデプロイページに行ってプレビューのURLを知る必要はありますが、iPadでプレビューを見ることも全部サーバレスで出来るんです。私はVPS上でプレビュー専用のCI/CD環境を作ってましたがこれでもう要らないですね。cloudflare pagesだけで完結します。素晴らしい!!
