@@ -1,7 +1,7 @@
 ---
 title: Cloudflare PagesでHUGOのコンテンツを公開
 date: 2021-04-17T10:00:00+09:00
-lastmod: 2021-05-12T13:00:00+09:00
+lastmod: 2021-05-15T13:00:00+09:00
 draft: false
 author: Keruru
 # authorlink: https://author.site
@@ -34,7 +34,12 @@ previewのbuildって何のことだろう？と思っていたら、githubでbr
 
 ふと、それだったらbaseURL指定しなければ良いんじゃないの？！と思い立ってbaseURL指定を "/" に変更してみました。これでばっちり。これでbranchを用いてpreviewが出来ます。しかも先に記述している通りpreviewのbuildは無制限。もうこれはiPadのために生まれてきた機能と言っても過言ではないです。
 
-iPadで[Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807)を用いてcloneしたHugoのリポジトリでbranchを切り編集、pushします。その瞬間にプレビューのbuildが走ります。previewのbuildが完了するとcloudflare pagesのデプロイページにデプロイ単位で ランダムな文字列.リポジトリ名.pages.dev と言うリンクが生まれます。ここにアクセスするとプレビューが見れるんです。
+iPadで[Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807)を用いてcloneしたHugoのリポジトリでbranchを切り編集、pushします。その瞬間にプレビューのbuildが走ります。previewのbuildが完了するとcloudflare pagesのデプロイページにデプロイ単位で `ランダムな文字列.リポジトリ名.pages.dev` と言うリンクが生まれます。ここにアクセスするとプレビューが見れるんです。
+
+### Aliasも作られるのでアクセスも楽々
+デプロイ単位でランダムなリンクが生成されるわけですが、もう1つアクセスしやすいリンクが作られます。 `ブランチ名.リポジトリ名.pages.dev` と言うもの。此方でしたらランダムな文字列と違いCloudflare Pagesのデプロイページを参照しに行かなくても確認が容易ですね。
+
+ただし編集のプレビューとして小まめに修正・デプロイしていると上記の制約以外の制約にひっかかります。特に記載がないので詳細がわからないのですが、短時間にデプロイを繰り返すと何らか不正と判断されてデプロイしてくれなくなります。この辺りの数字もちゃんと制約として明記して欲しいものです。
 
 {{< fancybox "." "cloudflare_pages_deploys.png" "cloudflare Pagesのデプロイ一覧ページ" "gallery" >}}
 
