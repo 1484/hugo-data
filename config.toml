@@ -2,7 +2,7 @@
 baseURL = "/"
 languageCode = "ja"
 defaultContentLanguage = "ja"
-title = "Keruru Digit"
+title = "Keruruのブログ"
 theme = "dream"
 copyright = '(C)Keruru. All Rights Reserved'
 googleAnalytics = ""
@@ -38,7 +38,7 @@ pygmentsCodeFences = true
 
   siteStartYear = 2006
 
-  #favicon = "/favicon.ico"
+  favicon = "/favicon.ico"
 
   #background = "black"
   backgroundImage = "/img/hawaii.jpg"
@@ -54,7 +54,7 @@ pygmentsCodeFences = true
 
   showSummaryCoverInPost = true
 
-  categoriesLimitInHeader = 7
+  # categoriesLimitInHeader = 7
   maxTags = 12
   # headerBottomText = ""
 
