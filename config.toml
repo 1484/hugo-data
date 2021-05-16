@@ -17,10 +17,8 @@ pygmentsCodeFences = true
       unsafe = true
 
 [params]
-  #background = "black"
-  backgroundImage = "/img/hawaii.jpg"
-  linkColor = "seagreen"
 
+  headerTitle = "Keruruのブログ"
   author = "keruru"
   description = "けるるの日常を綴る..."
   avatar= "/img/avatar.jpg"
@@ -42,32 +40,35 @@ pygmentsCodeFences = true
 
   #favicon = "/favicon.ico"
 
-  # dark mode
+  #background = "black"
+  backgroundImage = "/img/hawaii.jpg"
+  linkColor = "seagreen"
+
   darkLinkColor = "darkseagreen"
   backgroundDark = "black"
   backgroundImageDark = "/img/hawaii_d.jpg"
-  darkNav = true
-  dark404Button = true
+  # darkNav = true
+  # dark404Button = true
 
   enableGitInfo = true
 
   showSummaryCoverInPost = true
 
   categoriesLimitInHeader = 7
-  maxTags = 5
+  maxTags = 12
   # headerBottomText = ""
 
   enableSearch = true
 
   highlightjs = true
   # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
-  highlightjsExtraLanguages = ["ocaml"]
+  highlightjsExtraLanguages = ["clojure", "ocaml"]
   highlightjsTheme = "gruvbox-light"
   highlightjsThemeDark = "gruvbox-dark"
  
   [params.advanced]
-    customCSS = ["css/custom.css"]
-    customJS = []
+    customCSS = ["css/custom.css", "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"]
+    customJS = ["https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js", "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ]
 
   [params.experimental]
     jsDate = true
