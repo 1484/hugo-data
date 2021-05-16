@@ -1,5 +1,6 @@
 # baseURL = "https://keruru.net"
 baseURL = "/"
+searchURL = "https://keruru.net"
 languageCode = "ja"
 defaultContentLanguage = "ja"
 title = "Keruruのブログ"

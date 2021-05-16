@@ -8,7 +8,7 @@
 </div>
 <script>
   $(document).ready(function () {
-    $.getJSON('/index.json', function (data) {
+    $.getJSON('{{ .Site.SearchURL }}/index.json', function (data) {
       $('.ui.search').search({
         source: data,
         searchFields: ['title'],
