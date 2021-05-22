@@ -1,5 +1,5 @@
 ---
-title: LiquidLogicすごい
+title: LiquidLogicで開発環境もWeb編集環境も一気に改善
 date: 2021-05-22T12:00:00+09:00
 lastmod: 2021-05-22T12:00:00+09:00
 draft: false
