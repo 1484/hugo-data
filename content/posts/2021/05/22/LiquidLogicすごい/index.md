@@ -1,7 +1,7 @@
 ---
 title: LiquidLogicで開発環境もWeb編集環境も一気に改善
 date: 2021-05-22T12:00:00+09:00
-lastmod: 2021-05-22T12:00:00+09:00
+lastmod: 2021-05-23T01:00:00+09:00
 draft: false
 author: Keruru
 # authorlink: https://author.site
@@ -22,7 +22,7 @@ cover: "liquidlogic.jpg"
 もうGithubクライアントは [WorkingCopy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807) 一択ですね。純正アプリでGithubアプリもありますがviewerに近いので、push/pullしてリポジトリにアクションして行きたい人は必須です。2021/05/22現在2,440円しますが買い切りでサブスクリプションモデルでは無いので比較的お求めやすいかなと思います。UIが若干ごちゃごちゃしてるイメージはありますが、使いやすいですし安心して使えます。オススメです。
 
 ## テキストエディタ LiquidLogic
-これまでWorkingCopyを紹介しているBlogで一緒に紹介されている事が多い [Textastic](https://apps.apple.com/jp/app/textastic-code-editor-9/id1049254261) と言うアプリを用いていました。買ってはみたもののイマイチUIにも馴染めず結局ほとんど使っていません。SSHクライアント機能もある様でそれだけでも使えれば、と思ったのですがこちらも動作が怪しい。と言う事で他の選択肢を探していました。特にSSHクライアントとして。そして今回出会った [LiquidLogic](https://apps.apple.com/jp/app/%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF-liquidlogic/id1458566442) にすっかり惚れ込んでいます。まだ数日しか使ってないんですがもうバッチリ使いこなせているので課金しちゃいまいたね。
+これまでWorkingCopyを紹介しているBlogで一緒に紹介されている事が多い [Textastic](https://apps.apple.com/jp/app/textastic-code-editor-9/id1049254261) と言うアプリを用いていました。買ってはみたもののイマイチUIにも馴染めず結局ほとんど使っていません。SSHクライアント機能もある様でそれだけでも使えれば、と思ったのですがこちらも動作が怪しい。と言う事で他の選択肢を探していました。そして今回出会った [LiquidLogic](https://apps.apple.com/jp/app/%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF-liquidlogic/id1458566442) にすっかり惚れ込んでいます。まだ数日しか使ってないんですがもうバッチリ使いこなせているので課金しちゃいまいたね。
 
 ## SSHクライアント LiquidLogic
 SSHクライアントとしては [Termius](https://apps.apple.com/jp/app/termius-ssh-client/id549039908) を用いていました。こちらもサブスクリプションモデルのアプリですが無料の範囲で十分使えますのでオススメです。個人的にちょっと困っていたのはlocalnet(自宅内の機器など)の接続が安定しないと言う事です。何度か繋がった気もするのですが基本的には接続出来ない感じの挙動で、自宅内にあるいくつかのサーバを操作する際に困ってしまいました。
@@ -54,6 +54,20 @@ ConoHaのVPS上のLinuxに構築したHugo環境にSSHで接続してhugo server
 {{< fancybox "." "conoha_hugo_edit.png" "編集しながらPreviewもLiquidLogicだけで完結！" "gallery" >}}
 
 VPSとの相性ばっちりな感じでMEGASOFT社さんの [LiquidLogicのページ](https://www.megasoft.co.jp/liquidlogic/feature02.php) にも書いてあるのですが、 **四位一体で＜Web編集＞も強い** とのお言葉。まさにその通りだなと思いました。素晴らしいです。
+
+## WorkingCopyとの連携性
+WorkingCopyでリポジトリのファイルを編集するにあたってTextasticが使われる事が多いのは開発元が同じで連携が協力だからでしょうか。編集したいファイルを長押しすると、1番上に `Edit in Textastic` と言うメニューが出てきます。もちろんこちらから編集画面に入る事が出来ます。最強ですね。
+
+{{< fancybox "." "edit_in_textastic.jpg" "WorkingCopyとTextasitcの連携" "gallery" >}}
+
+ではその他エディタはダメでしょうか？  **・・・そんな事はありません。**
+
+`Edit in Textastic` の下に `share` と言うメニューがありますが、こちらから別のアプリで開く事が出来ますのでLiquidLogic以外のEditorを使われている方でもここから編集に入る事が出来ます。確かにTextasticで用いるよりも1アクション増えてしまいますが、それでも好みのエディタで編集できる方が効率が上がるので活用しない手はありませんね。
+
+{{< fancybox "." "share_in_other.jpg" "Shareから好きなエディタで編集できる" "gallery" >}}
+
+好きなエディタで編集した後はファイルを保存し、WorkingCopyに戻って編集内容が適用されているか確認しましょう。
+これだけお手軽だとgitコマンドを覚えるのが面倒で敬遠していた方もgitを楽々使いこなせそうな気がします。素敵。
 
 ## サブスクリプションモデルだが安価！
 無料でダウンロードして使う事が出来ます。エディタのオープンできるファイル数に制限があったり、SSHの接続先登録数に制限があったりしますがそれ以外の機能面での制約はありませんので、まずは[こちらから入れてみて](https://apps.apple.com/jp/app/%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF-liquidlogic/id1458566442) 使ってみる事をオススメします。買い切りもいいんですが、お試しできるの良いですよね。
