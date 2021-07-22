@@ -1,5 +1,5 @@
 ---
-title: SAMSUNG Chromebook ProにCrostiniをインストールする
+title: SAMSUNG Chromebook ProにLinux(Crostini)をインストールする
 date: 2021-07-18T10:00:00+09:00
 lastmod: 2021-07-18T10:00:00+09:00
 draft: false
@@ -11,7 +11,7 @@ tags: ["chromebook", "linux"]
 cover: "crostini-hugo.png"
 ---
 
-## SAMSUNG Chromebook ProにもCrostiniをインストール出来るようになった
+## SAMSUNG Chromebook ProにもLinux(Crostini)をインストール出来るようになった
 
 とは言ってもたぶん半年前位には出来るようになっていたと思います。実家のPCが不調になりしばらくChromebookProを貸し出していたのと、もはやこの世代にはCrostiniは来ないのではないかなんて思っていたのでろくに追っていませんでした(笑
 
