@@ -102,3 +102,27 @@ samp {
   vertical-align: text-bottom;
 }
 
+div.simple-table table {
+	width: 100%;
+	border-top: 1px solid #e2e2e2;
+	border-left: 1px solid #e2e2e2;
+	background: #ffffff;
+	margin-bottom:auto;
+  	margin-left: auto;
+  	margin-right: auto;
+     color:#000000;
+}
+
+div.simple-table table th{
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+  text-align: center;
+}
+div.simple-table table td {
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+  text-align: center;
+}
+div.simple-table table th {
+	background-color: #f3f0f0;
+}
