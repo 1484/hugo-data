@@ -104,7 +104,25 @@
 
         {{ .Content | emojify }}
       </article>
+
+
+    <div>
+    <hr>
+      <div style="float:left;">
+        {{ with .PrevInSection }}
+          [previous]<a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+        {{ end }}
+      </div>
+      <div style="text-align:right;">
+        {{ with .NextInSection }}
+          <a class="next" href="{{.Permalink}}"> {{.Title}}</a>[next]
+        {{ end }}
+      </div>
+    </div>
+
+
     </section>
+
 
     {{ if .Site.DisqusShortname }}
     <article class="ui segment post-disqus-area" data-html2canvas-ignore>
@@ -183,4 +201,8 @@
 
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js"></script>
 <script src="{{ "/js/post.js" | relURL }}" defer></script>
+
+
+
+
 {{ end }}
