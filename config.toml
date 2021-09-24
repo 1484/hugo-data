@@ -67,7 +67,7 @@ pygmentsCodeFences = true
   highlightjsThemeDark = "gruvbox-dark"
  
   [params.advanced]
-    customCSS = ["css/custom.css", "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"]
+    customCSS = ["css/keruru.custom.css", "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"]
     customJS = ["https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ]
 
   [params.experimental]
