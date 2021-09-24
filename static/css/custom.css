@@ -126,3 +126,45 @@ div.simple-table table td {
 div.simple-table table th {
 	background-color: #f3f0f0;
 }
+
+.ui.attached.segment.dream-card {
+  border: none;
+  border-radius: 1.5em;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%); /* Bulma Box */
+}
+
+.dream-back .ui.segment,
+.ui.segment.dream-posts-section,
+.ui.segment.dream-categories-section,
+.ui.segment.dream-tags-section,
+.dream-single-aside .ui.segment,
+.ui.segment.post-disqus-area,
+.ui.segment.utterances-comments {
+  border-radius: 1.5em;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+}
+
+.dream-single .ui.top.attached.segment {
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+}
+
+.dream-single .ui.attached.segment:not(.cover) {
+  border-bottom-left-radius: 1.5em;
+  border-bottom-right-radius: 1.5em;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+}
+
+body.dark .markdown-body .highlight pre {
+  background: #222 !important;
+}
+
+
+.ui.grid>.relaxed.row>.column, .ui.relaxed.grid>.column:not(.row), .ui.relaxed.grid>.row>.column {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
