@@ -1,3 +1,4 @@
 [submodule "themes/dream"]
     path = themes/dream
     url = https://github.com/1484/hugo-theme-dream.git
+    branch= release-1.6
