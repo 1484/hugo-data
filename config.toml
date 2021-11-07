@@ -23,6 +23,7 @@ theme = "rokkaku"
   twitter = "keruru"
   copyrightHtml = "Copyright &copy; Keruru All Rights Reserved. 2016&ndash;2021"
   rss = true
+  styles = ["/css/custom.css", ""]
 
   [ga]
   trackingId = "UA-2733118-1"
