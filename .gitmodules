@@ -2,3 +2,6 @@
     path = themes/dream
     url = https://github.com/1484/hugo-theme-dream.git
     branch= release-1.6
+[submodule "themes/rokkaku"]
+	path = themes/rokkaku
+	url = https://github.com/nijohando/hugo-rokkaku-theme.git
