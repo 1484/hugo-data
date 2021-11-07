@@ -4,6 +4,8 @@ draft = false
 title = "VAIO type PにWindows10PRを入れてみました"
 categories = ["gadget"]
 cover = "16334396426_4facb26401_o-1.jpg"
+archives = "2015"
+toc = false
 +++
 
 

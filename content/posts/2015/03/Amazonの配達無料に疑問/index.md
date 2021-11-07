@@ -4,6 +4,8 @@ draft = false
 title = "Amazonの配達無料に疑問"
 categories = ["things"]
 cover = "16620780220_bbac4126e7_o-1-768x576.jpg"
+archives = "2015"
+toc = false
 +++
 
 

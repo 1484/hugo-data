@@ -9,6 +9,10 @@ categories: ["cloud"]
 tags: ["hugo"]
 # showcase: true
 cover: "cloudflare_with_hugo.png"
+
+archives: "2021"
+toc: true
+
 ---
 これまで[netlify](https://www.netlify.com/)を使ってきましたが、[Cloudflare Pages](https://pages.cloudflare.com/)が公開されたと言う事で本サイトのコンテンツを移してみました。
 

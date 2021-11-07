@@ -5,6 +5,8 @@ title = "GoogleDocsに書いた文章をWordPressに投稿できるらしい。"
 categories = ["cloud"]
 tags = ["wordpress"]
 cover = "WordPress-logo.png"
+archives = "2016"
+toc = true
 +++
 
 以前Microsoft Word2007以降からはWordPressを含む様々なBlogに投稿できるようになってるんですよ、ってのを紹介しているのですがGoogleDocsでも投稿できるんだそうです。

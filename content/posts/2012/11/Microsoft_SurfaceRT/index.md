@@ -4,6 +4,8 @@ draft = false
 title = "Microsoft Surface"
 categories = ["computer", "gadget"]
 cover = "8143464207_3ca78d4b35_o.jpg"
+archives = "2012"
+toc = false
 +++
 
 旅行でニューヨークに来ています。ハロウィーンパレードを見に来たのですが、ハリケーンSandyの影響で40年の歴史の中で初の中止でしょんぼりしています。まぁ史上最大のハリケーンと遭遇とか一生に一度しか無いであろう事なのでそれはそれで貴重な体験をしています。

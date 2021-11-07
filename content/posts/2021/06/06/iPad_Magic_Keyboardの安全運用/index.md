@@ -9,6 +9,10 @@ categories: ["gadget"]
 tags: ["iPad"]
 # showcase: true
 cover: "Magic_Keyboard.jpg"
+
+archives: "2021"
+toc: true
+
 ---
 
 ## Magic Keyboardを買ったのでより安全に持ち歩く方法を考えた

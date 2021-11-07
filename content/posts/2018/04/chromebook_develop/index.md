@@ -5,6 +5,8 @@ slug: chromebook_develop
 tags: ["chromebook", "develop", "ConoHa"]
 category: ["computer"]
 cover: "cloud9.png"
+archives: "2018"
+toc: true
 ---
 chromebookをガチで開発環境に用いようとするなんてナンセンス？いやいやそんな事ないですよ。そもそもChromeOSはGentooベースのLinuxなんですから開発環境に使えないだなんてわけが無いじゃないですか。
 

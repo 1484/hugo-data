@@ -5,6 +5,8 @@ title = "Evernote Web版の新UIがなかなか美しい"
 categories = ["cloud"]
 tags = ["evernote"]
 cover = "15464539026_6ea5d3ffa0_o.png"
+archives = "2014"
+toc = false
 +++
 
 

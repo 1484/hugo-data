@@ -4,6 +4,8 @@ draft = false
 title = "現在の室温をtweetしよう"
 categories = ["gadget"]
 cover = "raspberrypi.jpg"
+archives = "2016"
+toc = true
 +++
 
 連休に自宅サーバをこれまで愛用していたHP社製microserverからRaspberry Pi3へリプレイスしました。microserverでは地味にRAID1+0環境にしてたりして安心確実ストレージとなっているのですが、日常からHDDを4本も回してなくていいんじゃ？と言う事が事はじめです。とは言えストレージサーバとしてはとても信頼おける状態となっていますので、時折WakeOnLanで起こしてはバックアップ先として活躍して頂く予定で、普段使いはRaspberry Pi3につないだシングルのHDDでも問題ないよね、という感じです。

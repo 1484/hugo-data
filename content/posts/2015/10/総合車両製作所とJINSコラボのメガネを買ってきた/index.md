@@ -4,6 +4,8 @@ draft = false
 title = "総合車両製作所とJINSコラボのメガネを買ってきた"
 categories = ["gadget"]
 cover = "21900800829_8fb03e6349_o-1-1200x900.jpg"
+archives = "2015"
+toc = false
 +++
 
 なんだかすっかりお買い物Blogと化してますが（汗）総合車両製作所とJINSコラボの眼鏡を買ってきました。

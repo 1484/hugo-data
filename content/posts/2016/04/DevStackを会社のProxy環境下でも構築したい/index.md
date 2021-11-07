@@ -5,6 +5,8 @@ title = "DevStackを会社のProxy環境下でも構築したい"
 categories = ["cloud", "computer"]
 tags = ["OpenStack", "DevStack"]
 cover = "OpenStack.jpg"
+archives = "2016"
+toc = true
 +++
 
 自宅での検証環境としては愛用のThinkPadにVMware Workstationを入れてその上でUbuntuを動かしそこでDevStack環境を構築しています。とても快適です。しかしあくまで個人の環境なので会社で仕事中に検証として使えません。会社ではちゃんと会社のNWで使える検証環境を構築せねばなりません。

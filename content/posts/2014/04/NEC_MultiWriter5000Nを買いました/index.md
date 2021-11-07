@@ -4,6 +4,9 @@ draft = false
 title = "NEC MultiWriter5000Nを買いました"
 categories = ["computer"]
 cover = "14055262421_251b37a71a_o.jpg"
+archives = "2014"
+toc = false
+
 +++
 
 

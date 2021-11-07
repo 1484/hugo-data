@@ -5,6 +5,9 @@ title = "台湾の若者の活字離れ対策"
 categories = ["things"]
 cover = "14975345128_0ae09f0bcb_o-1.jpg"
 tags = ["taiwan"]
+archives = "2014"
+toc = false
+
 +++
 
 {{< fancybox "." "14975345128_0ae09f0bcb_o-1.jpg" "駅の図書館" "gallery" >}}

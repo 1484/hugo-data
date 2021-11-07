@@ -4,6 +4,8 @@ draft = false
 title = "PROTREK PRW-6000SYTを買いました"
 categories = ["gadget"]
 cover = "PRW6000SYT.JPG"
+archives = "2015"
+toc = false
 +++
 
 今日は鉄道フェスティバルに行くため日比谷公園に行きました。そこで眼鏡を買ったのは先に書いた通りですが、その眼鏡にレンズを入れてもらうため銀座へ。その足でビックカメラに行きました。ちょっと前から腕時計のリプレースを考えていて様々な機種を検討していたのですが結局 [PRO TREK](http://protrek.jp/) だろう、と固まったのもあり。今回はPROTREKシリーズの中でも

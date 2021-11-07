@@ -1,80 +1,28 @@
-baseURL = "https://keruru.net"
-#baseURL = "/"
-languageCode = "ja"
-defaultContentLanguage = "ja"
-title = "Keruruのブログ"
-theme = "dream"
-copyright = '(C)Keruru. All Rights Reserved'
-googleAnalytics = ""
-disqusShortname = "keruru"
-enableRobotsTXT = true
+baseurl = "http://keruru.net/"
+title =  "Keruruのブログ "
+languageCode = "ja-jp"
 hasCJKLanguage = true
-pygmentsCodeFences = true
+theme = "rokkaku"
+
+[taxonomies]
+  tag = "tags"
+  archive = "archives"
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+  [highlight]
+    codeFences = false
+    guessSyntax = false
+    noClasses = false
 
 [params]
-
-  headerTitle = "Keruruのブログ"
-  author = "keruru"
-  description = "けるるの日常を綴る..."
-  avatar= "/img/avatar.jpg"
-  motto = "けるるの日常を綴る..."
-  
-  email = "takeru@1974.jp"
-  twitter = "keruru"
-  facebook = "takeru.ishibashi"
-  instagram = "keruru03"
-  #linkedin = ""
-  github = "1484"
-  #stackoverflow = ""
-  #codepen = ""
+  limitNumberOfLatests = 5
+  logoHtml = "<figure><img src=\"/img/avatar.jpg\" width=\"80%\" /></figure>"
   amazonJpAffiliate = "kerurudigit-22"
-
+  description = "けるるの日常を綴る..."
+  github = "1484"
+  twitter = "keruru"
+  copyrightHtml = "Copyright &copy; Keruru All Rights Reserved. 2016&ndash;2021"
   rss = true
 
-  siteStartYear = 2006
-
-  favicon = "/favicon.ico"
-
-  #background = "black"
-  backgroundImage = "/img/hawaii.jpg"
-  linkColor = "seagreen"
-
-  darkLinkColor = "darkseagreen"
-  backgroundDark = "black"
-  backgroundImageDark = "/img/hawaii_d.jpg"
-  # darkNav = true
-  # dark404Button = true
-
-  enableGitInfo = true
-
-  showSummaryCoverInPost = true
-
-  # categoriesLimitInHeader = 7
-  maxTags = 12
-  # headerBottomText = ""
-
-  enableSearch = true
-
-  highlightjs = true
-  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
-  highlightjsExtraLanguages = ["clojure", "ocaml"]
-  highlightjsTheme = "gruvbox-light"
-  highlightjsThemeDark = "gruvbox-dark"
- 
-  [params.advanced]
-    customCSS = ["css/keruru.custom.css", "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"]
-    customJS = ["https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ]
-
-  [params.experimental]
-    jsDate = true
-    jsDateFormat = "yyyy年MM月dd日"
-    # jsDateFormat = "yyyy年MM月dd日，cccc"
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-
+  [ga]
+  trackingId = "UA-2733118-1"

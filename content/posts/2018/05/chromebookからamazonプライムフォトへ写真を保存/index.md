@@ -5,6 +5,8 @@ draft: false
 slug: 
 categories: ["cloud"]
 cover: "amazon-photo.jpg"
+archives: "2018"
+toc: true
 ---
 大型連休もそろそろ終盤、皆さん旅行に行かれましたか？旅先では写真を沢山撮ってしまいますよね。私も今年は鹿児島・熊本を巡ってきました。
 

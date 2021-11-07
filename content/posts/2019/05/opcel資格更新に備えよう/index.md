@@ -5,6 +5,8 @@ slug: OPCEL資格更新に備えよう
 tags: ["OPCEL", "OpenStack"]
 categories: ["cloud"]
 cover: "OpenStack.jpg"
+archives: "2019"
+toc: true
 
 ---
 

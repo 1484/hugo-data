@@ -5,6 +5,8 @@ title = "あけましておめでとうございます"
 categories = ["things"]
 tags = ["newyear"]
 cover = "OpenStack.jpg"
+archives = "2016"
+toc = false
 +++
 
 

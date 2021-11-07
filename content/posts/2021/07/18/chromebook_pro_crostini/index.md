@@ -9,6 +9,9 @@ categories: ["gadget"]
 tags: ["chromebook", "linux"]
 # showcase: true
 cover: "crostini-hugo.png"
+
+archives: "2021"
+toc: true
 ---
 
 ## SAMSUNG Chromebook ProにもLinux(Crostini)をインストール出来るようになった

@@ -5,6 +5,8 @@ slug: USB-C旅先充電環境
 tags: ["battery", "iPad"]
 categories: ["gadget"]
 cover: "USB-C-battery.jpg"
+archives: "2018"
+toc: true
 
 ---
 

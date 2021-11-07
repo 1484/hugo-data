@@ -4,6 +4,8 @@ draft = false
 title = "香港旅行2015"
 categories = ["trip"]
 cover = "21515264930_30ee1a41b6_o-1-1200x900.jpg"
+archives = "2015"
+toc = false
 +++
 
 

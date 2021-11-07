@@ -5,6 +5,9 @@ title = "台湾旅行4日目"
 categories = ["trip"]
 cover = "15161532482_5566584b73_o-1.jpg"
 tags = ["taiwan"]
+archives = "2014"
+toc = false
+
 +++
 
 これまででちょっと疲れたのもあり今日はのんびりday

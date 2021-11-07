@@ -4,6 +4,9 @@ draft = false
 title = "乗り換え駅で乗り過ごさない為に"
 categories = ["gadget"]
 cover = "20140313-005944.jpg"
+archives = "2014"
+toc = false
+
 +++
 
 

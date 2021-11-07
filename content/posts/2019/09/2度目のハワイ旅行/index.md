@@ -5,6 +5,8 @@ draft: false
 slug: 2度目のハワイ旅行
 categories: ["trip"]
 cover: "ocian.jpg"
+archives: "2019"
+toc: true
 ---
 
 今年の夏休みは2度目となるハワイ旅行となりました。前回は2016年の11月に従姉妹の結婚式があったのでそれに数日追加して本島などを旅したのでした。

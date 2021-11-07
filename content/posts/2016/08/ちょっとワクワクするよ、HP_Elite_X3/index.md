@@ -4,6 +4,8 @@ draft = false
 title = "ちょっとワクワクするよ、HP Elite X3"
 categories = ["gadget"]
 cover = "R0000087.jpg"
+archives = "2016"
+toc = true
 +++
 
 hpの製品発表会で<a href="http://h50146.www5.hp.com/m/3in1/elite_x3/" target="_blank">HP Elite X3</a>実機を触ってきました。

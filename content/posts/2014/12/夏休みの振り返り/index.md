@@ -4,6 +4,8 @@ draft = false
 title = "夏休みの振り返り"
 categories = ["things"]
 cover = "3660915_m.jpg"
+archives = "2014"
+toc = false
 +++
 
 年末となると1年の振り返りとかしますよね。年賀状の一言コメントを書いていて、ふと思った事がありました。

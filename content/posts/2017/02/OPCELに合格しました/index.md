@@ -5,6 +5,8 @@ title = "OPCELに合格しました"
 categories = ["cloud"]
 tags = ["OpenStack", "ConoHa"]
 cover = "OpenStack.jpg"
+archives = "2017"
+toc = true
 +++
 
 <h2>OPCEL is 何？</h2>

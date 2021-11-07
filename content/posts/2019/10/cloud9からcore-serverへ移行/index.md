@@ -5,6 +5,8 @@ slug: cloud9からcore-serverへ移行
 tags: ["develop", "ConoHa", "Chromebook"]
 categories: ["cloud"]
 cover: "core-server.jpg"
+archives: "2019"
+toc: true
 
 ---
 これまでChromebookでちょっとしたコード書いたりするのには[AWS Cloud9](https://aws.amazon.com/jp/cloud9/)を愛用してきました。ブラウザさえあればそこに開発環境が整い、とても便利でした。WebブラウザさえあればいいのでChromebookだけでなくその他PCでも活用出来たりと最高だな、って思っています。

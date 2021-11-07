@@ -5,6 +5,8 @@ slug: 紙でできたお財布
 tags: ["財布", "Papercuts"]
 categories: ["gadget"]
 cover: "paper-wallet.jpg"
+archives: "2018"
+toc: true
 
 ---
 

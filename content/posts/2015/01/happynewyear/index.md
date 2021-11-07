@@ -5,6 +5,8 @@ title = "あけましておめでとうございます"
 categories = ["things"]
 tags = ["newyear"]
 cover = "15977433907_846d02e612_o-1.jpg"
+archives = "2015"
+toc = false
 +++
 
 # 本年もどうぞよろしくお願いします。

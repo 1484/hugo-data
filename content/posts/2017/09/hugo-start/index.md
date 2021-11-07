@@ -5,6 +5,8 @@ title = "Hugoへの移行"
 tags = ["Hugo", "WordPress"]
 categories = ["things"]
 cover= "hugo.png"
+archives = "2017"
+toc = true
 +++
 
 # Hugoにするきっかけ

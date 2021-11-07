@@ -6,6 +6,8 @@ categories: ["computer"]
 tags: ["chromebook","Surface","SurfacePro4","linux"]
 cover: "chromebook.jpg"
 tags: ["chromebook", "Linux"]
+archives: "2018"
+toc: true
 ---
 
 これまでSurface Pro4で生活してきましたが、勉強会など様々なシーンで **テーブルが確保できず膝上でPCを使う** と言うシーンがありました。そんな事もありSurface大好きだけれど辛いシーンが結構あるなぁ、と実感。

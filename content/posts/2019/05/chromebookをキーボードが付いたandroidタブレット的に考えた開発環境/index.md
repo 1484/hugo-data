@@ -5,6 +5,8 @@ slug: chromebookをキーボードが付いたAndroidタブレット的に考え
 tags: ["chromebook", "develop"]
 categories: ["gadget"]
 cover: "chromebook-develop.jpg"
+archives: "2019"
+toc: true
 
 ---
 

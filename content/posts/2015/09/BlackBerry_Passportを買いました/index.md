@@ -5,6 +5,8 @@ title = "BlackBerry Passportを買いました"
 categories = ["gadget"]
 tags = ["blackberry"]
 cover = "21516329568_4ddefcaa34_o-360x150.jpg"
+archives = "2015"
+toc = false
 +++
 
 実は香港旅行中、先達市場で買うよりもExpansysで買うほうが安い事を知った私は旅行中のホテルでポチって居たのでした（妻に呆れられながら）。やれやれ。

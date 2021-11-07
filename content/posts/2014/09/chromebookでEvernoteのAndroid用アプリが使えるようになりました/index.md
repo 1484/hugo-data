@@ -5,6 +5,9 @@ title = "chromebookでEvernoteのAndroid用アプリが使えるようになり�
 categories = ["gadget"]
 tags = ["evernote"]
 cover = "15272885211_d04f6987fa_o-1.png"
+archives = "2014"
+toc = false
+
 +++
 
 9/11にAndroid用アプリの内４アプリについてchromebookで動くようになりました。アプリ版のEvernoteが動く事によってオフラインの状態でノートが書けるのはちょっと便利かもしれない。利用価値は十分にある。しかしオンラインの状態の時に使おうと思うことは少ないかもしれませんね。

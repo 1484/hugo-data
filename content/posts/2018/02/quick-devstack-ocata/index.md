@@ -7,6 +7,8 @@ tags: ["OpenStack","devstack","ocata","linux"]
 slug: qucik-devstack-ocata
 cover: "OpenStack.jpg"
 tags: ["DevStack", "OpenStack"]
+archives: "2018"
+toc: true
 ---
 
 # OpenStackの学習といえばこの本！の内容がもう古い！

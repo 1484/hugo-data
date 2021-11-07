@@ -8,6 +8,10 @@ categories: ["computer"]
 tags: ["linux", "openSUSE"]
 # showcase: true
 cover: "linux.png"
+
+archives: "2020"
+toc: true
+
 ---
 # Windowsじゃ駄目なんですか？
 

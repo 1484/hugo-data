@@ -6,6 +6,10 @@ slug: "ポメラを購入した"
 tags: ["tips", "pomera", "hugo"]
 categories: ["gadget", "things"]
 cover: "pomera.jpg"
+
+archives: "2020"
+toc: true
+
 ---
 
 # ポメラDM200購入の背景

@@ -13,6 +13,9 @@ cover: "cover.jpg"
 # 画像貼り付けメモ
 # {{< fancybox "." "<filename>" "<alt message>" "gallery" >}}
 
+archives: "2021"
+toc: true
+
 ---
 
 iPad ProにMagic Keyboardを接続して使用している。キーボードの言語は少しでもキーが大きい方が良いので英語キーボードを選択した。日本語でも英語でも困らないため1キーでも小さいキーボードが少ない方が良いと思っての事だった。

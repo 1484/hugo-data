@@ -5,6 +5,8 @@ title = "ConoHaにDevStack環境を構築"
 categories = ["cloud"]
 tags = ["OpenStack", "DevStack", "ConoHa"]
 cover = "OpenStack.jpg"
+archives = "2016"
+toc = true
 +++
 
 愛用のThinkPadならVMwareで動作するので問題ありませんが、こうがっつり検証環境を持ち歩いたりする必要に駆られる時以外はThinkPadは持ち歩きたくないのです、重いし。普段はそんなCPU必要無い事ばかりですし、そんな時はタブレットPCを持ち歩いています。

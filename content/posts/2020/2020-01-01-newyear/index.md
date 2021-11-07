@@ -6,6 +6,10 @@ slug: null
 tags: ["newyear"]
 categories: ["things"]
 cover: "oseti_s.jpg"
+
+archives: "2020"
+toc: false
+
 ---
 
 {{< fancybox "." "oseti.jpg" "我が家のおせち2020ver" "gallery" >}}

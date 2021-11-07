@@ -5,6 +5,8 @@ title = "quick-devstack検証環境をConoHaに構築する"
 categories = ["cloud"]
 tags = ["OpenStack", "DevStack", "ConoHa"]
 cover = "OpenStack.jpg"
+archives = "2016"
+toc = true
 +++
 
 ConoHa上にAll-in-one環境を構築出来たならこのエントリーは無くともquick-devstack環境を構築出来る方がほとんどだと思いますが、ちょっとしたメモとして残しておきます。ConoHa上にDevStack環境を構築するので [基本的な事項は先のエントリー](/posts/2016/07/conoha上にdevstack環境を構築するtips/) を参照してくださいね。

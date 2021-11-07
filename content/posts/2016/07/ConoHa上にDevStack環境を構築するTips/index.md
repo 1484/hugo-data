@@ -5,6 +5,8 @@ title = "ConoHa上にDevStack環境を構築するTips"
 categories = ["cloud"]
 tags = ["OpenStack", "DevStack", "ConoHa"]
 cover = "OpenStack.jpg"
+archives = "2016"
+toc = true
 +++
 
 [ConoHa上にDevStack環境を構築](https://keruru.net/posts/2016/04/conohaにdevstack環境を構築/) しようとしてちょっと詰まってました。去年くらいまではConoHaではnested KVMが有効だったようで、苦なくDevStack環境を構築出来たみたいです。実際検索をしてみるとそれらしきBlogや雑誌社のBlog記事も見つかります。

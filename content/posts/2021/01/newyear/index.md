@@ -7,6 +7,10 @@ tags: ["newyear"]
 categories: ["things"]
 cover: "oseti2021.jpg"
 
+archives: "2021"
+toc: false
+
+
 ---
 
 

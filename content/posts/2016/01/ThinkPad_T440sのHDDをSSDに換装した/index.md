@@ -4,6 +4,8 @@ draft = false
 title = "ThinkPad T440sのHDDをSSDに換装した"
 categories = ["computer"]
 cover = "ThinkPad.jpg"
+archives = "2016"
+toc = true
 +++
 
 M.2コネクタに256GBのSSDを追加して使っていたが、いよいよ2.5inch SATAの方もSSDにした。1TBのデイスクを入れていたのだけれどそんなにやっぱり必要無くって、だったらHDDじゃなくてSSDでもいいな、と。省電力にもなりますし持ち歩いていても安心だし静かになるし。そもそもそんなに軽くないパソコンなので気にならないけど、一応軽くもなる筈。

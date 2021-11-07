@@ -5,6 +5,8 @@ draft: false
 slug: バンコク・チェンマイ旅行
 categories: ["trip"]
 cover: "chenmai.jpg"
+archives: "2018"
+toc: true
 ---
 
 # 2018年夏休み

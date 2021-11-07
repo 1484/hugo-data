@@ -6,6 +6,8 @@ slug: computeノードのhostnameを変更する
 categories: ["cloud"]
 tags: ["devstack", "openstack"]
 cover: "OpenStack.jpg"
+archives: "2018"
+toc: true
 ---
 
 お仕事でのこと、Multi node構成のOpenStack環境を構築後に一部compute nodeのhostnameが間違っている事が判明しました。なるほど、そんな事もあるよねぇ……なんて思いつつ、はてどうやって対処したら良いのかちょっと興味が湧きました。お仕事ではどう対処したんですかって？…それは秘密です（まだ決めてない）

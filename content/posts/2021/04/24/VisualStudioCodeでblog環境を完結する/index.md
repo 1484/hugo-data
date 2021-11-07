@@ -9,6 +9,10 @@ categories: ["cloud"]
 tags: ["hugo"]
 # showcase: true
 cover: "hugo.png"
+
+archives: "2021"
+toc: true
+
 ---
 # これまではWSLのvimで記事書いてました
 これまでの人生の大半はemacsと過ごしてきた私ですが、最近はvscodeにどっぷりって感じです。emacsも便利でしたけれどもう.emacsファイルにがしがしlispを書いて環境構築していくのがしんどくなってきたお年頃です。普段はPythonのスクリプトを少し書いてはdebugしたりする位ですが、そんなterminalで十分でしょ、って作業でも最近はすっかりvscodeばかり。

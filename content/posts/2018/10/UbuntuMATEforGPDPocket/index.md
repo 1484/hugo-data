@@ -5,6 +5,8 @@ slug: UbuntuMATEforGPDPocket
 tags: ["GPDPocket", "Ubuntu"]
 categories: ["gadget"]
 cover: "UbuntuMATEforGPDPocket.jpg"
+archives: "2018"
+toc: true
 
 ---
 

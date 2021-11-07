@@ -5,6 +5,8 @@ slug: "chromebookと生きる"
 cover: "chromebook.jpg"
 categories: ["gadget"]
 tags: ["chromebook"]
+archives: "2018"
+toc: true
 
 ---
 

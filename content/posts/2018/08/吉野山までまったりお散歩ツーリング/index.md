@@ -6,6 +6,8 @@ slug: 吉野山までまったりお散歩ツーリング
 tags: ["CRF250RALLY", "motorcycle"]
 categories: ["trip"]
 cover: "yoshinosan.jpg"
+archives: "2018"
+toc: true
 ---
 
 本当はキャンプに出かけたかったのだけれど翌日の天気が微妙なのでキャンプは断念。とはいえバイクには乗りたかったので日帰りお散歩ツーリングに。慣らしも早く終わらせたいしね。

@@ -6,6 +6,8 @@ categories: ["things"]
 tags: ["newyear"]
 cover: "newyear2018.jpg"
 slug: happynewyear2018
+archives: "2018"
+toc: false
 ---
 
 {{< fancybox "." "newyear2018.jpg" "我が家のおせち2018ver" "gallery" >}}

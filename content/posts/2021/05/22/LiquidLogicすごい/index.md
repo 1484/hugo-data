@@ -9,6 +9,10 @@ categories: ["cloud"]
 tags: ["iPad"]
 # showcase: true
 cover: "liquidlogic.jpg"
+
+archives: "2021"
+toc: true
+
 ---
 
 # LiquidLogicに出会った
