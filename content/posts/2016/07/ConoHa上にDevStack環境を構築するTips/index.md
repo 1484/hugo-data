@@ -18,9 +18,9 @@ toc = true
 
 ちなみにDevStackのインストール自体は普通にインストールが完了します。どこでエラーとなるかと言うとインスタンスを立ち上げようとすると立ち上がらず、エラーを確認すると「利用可能なcomputeノードが無いよ(No valid host was found. There are not enough hosts available.)」と言う内容でした。/opt/stack/logs/n-cond.logを確認すると
 
-```
- ERROR nova.scheduler.utils [req-1256d890-58f6-41b8-8013-793ada1b696e admin alt_demo] [instance: 16145ddf-99eb-4180-8a69-c8e811754297] Error from last host: devstack (node devstack): [u'Traceback (most recent call last):\n', u'  File "/opt/stack/nova/nova/compute/manager.py", line 1769, in _do_build_and_run_instance\n    filter_properties)\n', u'  File "/opt/stack/nova/nova/compute/manager.py", line 1964, in _build_and_run_instance\n    instance_uuid=instance.uuid, reason=six.text_type(e))\n', u'RescheduledException: Build of instance 16145ddf-99eb-4180-8a69-c8e811754297 was re-scheduled: Unable to get host UUID: /etc/machine-id is empty\n']
-```
+
+> ERROR nova.scheduler.utils [req-1256d890-58f6-41b8-8013-793ada1b696e admin alt_demo] [instance: 16145ddf-99eb-4180-8a69-c8e811754297] Error from last host: devstack (node devstack): [u'Traceback (most recent call last):\n', u'  File "/opt/stack/nova/nova/compute/manager.py", line 1769, in _do_build_and_run_instance\n    filter_properties)\n', u'  File "/opt/stack/nova/nova/compute/manager.py", line 1964, in _build_and_run_instance\n    instance_uuid=instance.uuid, reason=six.text_type(e))\n', u'RescheduledException: Build of instance 16145ddf-99eb-4180-8a69-c8e811754297 was re-scheduled: Unable to get host UUID: /etc/machine-id is empty\n']
+
 
 とあり、最後に **/etc/machine-id is empty** ってあるのが確認できます。
 
@@ -28,7 +28,7 @@ toc = true
 
 /etc/machine-id が空白である問題なので、uuidgenで作成したuuidをmachine-idに書き込みます。
 
-```
+```shell
 # uuidgen > /etc/machine-id
 ```
 
@@ -38,7 +38,7 @@ toc = true
 
 ConoHaではインスタンス作成毎にIPアドレスが変わりますので、その都度原則名前解決出来るようにしておく必要があります。ついでなのでIPアドレスベースじゃないものに変更してしまいましょう。次の例はdevstackへホスト名を変更する手順となります。
 
-```
+```shell
 # hostnamectl set-hostname devstack
 ```
 

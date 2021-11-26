@@ -43,7 +43,7 @@ ConoHaでサーバ追加画面で変更した処を記載しています。（�
 これで環境としてはひとまず完成。サーバを起動してログインするとeth1が出来ていますので、そこにそれぞれ上記の画面で指定されているIPアドレスを指定します。/etc/network/interfacesに記述しておくとよいでしょう。
 
 
-```
+```shell
 auto eth1
 iface eth1 inet static
 address 192.168.100.1   #stack01の場合。
@@ -55,17 +55,17 @@ broadcast 192.168.100.255
 インターフェイスにIPを割り振ってpingで疎通出来る事を確認しておきましょう。
 あとは基本的にはquick-devstackの手順通りですが、HOST_IPを変更します。
 
-```
-git clone https://github.com/josug-book1-materials/quick-devstack.git
-cd quick-devstack
-./stack01/setup.sh
-cd ~/devstack
-./stack.sh
+```shell
+$ git clone https://github.com/josug-book1-materials/quick-devstack.git
+$ cd quick-devstack
+$ ./stack01/setup.sh
+$ cd ~/devstack
+$ ./stack.sh
 ```
 
 例えばcontrollerノード(stack01)では上の様に実施しますが、最後の行のstack.shを実行する前に~/devstack/local.conf をviで編集します。stack01のlocal.confにはHOST_IPの行はありませんので追記してください。
 
-```
+```shell
 #OFFLINE=True
 RECLONE=True
 HOST_IP=192.168.100.1
@@ -73,7 +73,7 @@ HOST_IP=192.168.100.1
 
 stack02とstack03のlocal.confには下記の様にもともと記載があります。HOST_IPにはそれぞれeth1に割り当てたIP(192.168.100.2または192.168.100.3)を、CC_HOSTにはstack01のIP(192.168.100.1)を指定します。
 
-```
+```shell
 #OFFLINE=True
 RECLONE=True
 

@@ -25,45 +25,37 @@ toc = true
 まずはUbuntuを入れた後にそもそもapt-get upgradeとかしますよね。gitもaptでインストールする必要があります。そのための設定をしましょう。Ubuntuのインストーラーの中でproxyの設定を聞いてきますのでそこで設定していれば問題ありませんが念のため、~/.bashrcに以下を追加しておきましょう。
 
  
-{{< highlight bash >}}
-
+```shell
 export http_proxy="http://<proxyのユーザID>:<proxyのパスワード>@<proxyのIPやFQDN>:<port 番号(指定がある場合)>"
 export https_proxy="http://<proxyのユーザID>:<proxyのパスワード>@<proxyのIPやFQDN>:<port 番号(指定がある場合)>"
-
-{{< / highlight >}}
+```
 
 設定をしたらログアウトしてログインし直すかsource ~/.bashrcで読み込みましょう。apt-getが使えるようになる筈です。
 
 gitをインストールしたらgitでもproxyが使える様に設定しましょう。またgit://という様にhttpでなくgitのスキームで通信するように設定が書いてある場合があります。これはhttpで通信するようにしないといけませんね。これらはコマンドで行えます。
 
  
-{{< highlight bash>}}
-
+```shell
 $ git config --global http.proxy http://<proxyのユーザID>:<proxyのパスワード>@<proxyのIPやFQDN>:<port 番号(指定がある場合)>
 $ git config --global https.proxy http://<proxyのユーザID>:<proxyのパスワード>@<proxyのIPやFQDN>:<port 番号(指定がある場合)>
 $ git config --global url.http://github.com/.insteadOf git://github.com/
 $ git config --global url.http://git.openstack.org.insteadOf git://git.openstack.org/
-
-{{< / highlight >}}
+```
 
 これでgitの設定も完璧です。最後にcurlです。curlは~/.curlrcというファイルを読み込みますので設定しましょう。
 
  
-{{< highlight bash >}}
-
+```shell
 proxy-user = "<proxyのユーザID>:<proxy のパスワード>"
 proxy = "http://<proxyのIPやFQDN>:<port 番号(指定がある場合)>"
-
-{{< / highlight >}}
+```
 
 これでばっちりです。ここまで設定出来れば万全。
 
-{{< highlight bash >}}
-
+```shell
 $ git clone https://git.openstack.org/openstack-dev/devstack
 $ cd devstack; ./stack.sh
-
-{{< / highlight >}}
+```
 
 これでproxy環境下でもdevstack環境が構築出来ると思います。
 注意点としては構築後にブラウザで接続したりすると思いますがproxy設定のままだと設定次第ですがproxyに問い合わせにいってしまってローカルの仮想マシンに繋がらなかったりする事もあると思いますので要確認です。ここはほんと環境によってしまうかと思いますので頑張ってください。(私の場合VirtualBoxのポートフォワーディング設定を使ってホストPCのポートに割り当てて通信してます。127.0.0.1に対してproxy設定されている事も少ないですし不具合になりにくい)
