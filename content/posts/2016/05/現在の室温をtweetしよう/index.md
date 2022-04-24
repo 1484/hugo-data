@@ -36,11 +36,9 @@ toc = true
 ## Raspberry Piでの準備
 Raspberry Piに入れているOSにより準備が異なってきます。Raspbianであれば
 
-{{< highlight bash >}}
-
+```shell
 $ sudo raspi-config
-
-{{< / highlight >}}
+```
 
 
 これで設定画面が開きますのでAdvanced Optionを選びます。
@@ -53,11 +51,9 @@ Advanced Optionの中にI2Cの設定がありますので、選択し有効化�
 
 またその他としてI2Cを扱うツールをインストールする必要があります。
 
-{{< highlight bash >}}
-
+```shell
 $ sudo apt-get -y install i2c-tools python-smbus
-
-{{< / highlight >}}
+```
 
 これでまずは温度を取得するのに必要なツールがインストールされました。ここで一度再起動しておきましょう。
 
@@ -73,8 +69,7 @@ $ sudo apt-get -y install i2c-tools python-smbus
 
 接続したらi2cdetectコマンドを用いてraspberry piで接続を確認してみると
 
-{{< highlight bash >}}
-
+```shell
 $ sudo i2cdetect -y 1
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:          -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -85,8 +80,7 @@ $ sudo i2cdetect -y 1
 50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 70: -- -- -- -- -- -- 76 --
-
-{{< / highlight >}}
+```
 
 ばっちり認識されました。0x76の方が今回用いる温度センサーで0x18の方が今回用いない加速度センサーです。と言う事でI2Cに対応しているセンサーであれば測りたいセンサーをこんな感じでどんどん繋いで行ける！って事ですね。便利！
 
@@ -94,21 +88,18 @@ $ sudo i2cdetect -y 1
 
 さて、I2Cデバイスとして認識するところまで来ました。いよいよここからデータを取りだします。本当はデータシートを読んで頑張らなくては本来いけない所なんでしょうけれども、 [SWITCH SCIENCEさんが用意して下さっているスクリプト](https://github.com/SWITCHSCIENCE/BME280) をまずは使って動作確認します。
 
-{{< highlight bash >}}
-
+```shell
 $ wget https://raw.githubusercontent.com/SWITCHSCIENCE/BME280/master/Python27/bme280_sample.py
 $ sudo python bme280_sample.py
 temp : 28.97  ℃
 pressure : 1017.31 hPa
 hum :  34.95 ％
-
-{{< / highlight >}}
+```
 
 このままツイートさせてもいいのですが加工したいのでスクリプトを修正
 
-{{< highlight python >}}
-
- #!/usr/bin/python
+```python
+#!/usr/bin/python
 #coding: utf-8
 
 import smbus
@@ -265,18 +256,15 @@ if __name__ == '__main__':
 
         print d.strftime("%Y%m%d,%H:%M"),",%2.2f,%4.2f,%6.2f" % (temp, hum,press)
 
-{{< / highlight >}}
-
+```
 
 これで扱いやすいデータになりました。
 所で実はここで校正データを入れてあります。114行目に"temp = temperature -4"とあり、ここの最後で値から4度引いています。これは何かというと組んだ回路で測定して誤差も少ない素晴らしいセンサーを使っているのですが、例えば近くにRaspberry Piと言う熱源がありますよね。ですのでここで表示される値が必ずしも我々の体感する室温か？というとたぶん高めに表示されると思います。ですのでいくつか温度計を用意して校正すると良いかと思います。
 
-{{< highlight bash >}}
-
+```shell
 $ sudo python room_tweet.py
 20160506,14:03 ,25.12,36.98,1017.93
-
-{{< / highlight >}}
+```
 
 ## いよいよtweetする部分
 
@@ -286,27 +274,22 @@ ttytterの使い方は [こちらのページが詳しい](http://masatolan.com/
 
 インストールしてまずは認証画面を開きます。 途中"Press RETURN/ENTER to continue "と言われるのでEnterを押しましょう。
 
-{{< highlight bash >}}
-
+```shell
 $ sudo apt-get -y install ttytter
 $ ttytter -ssl
-
-{{< / highlight >}}
+```
 
 すると認証用のURLが出てきますのでブラウザでその認証URLを開き、アプリケーション認証。出てくるPIN番号をまたTerminalに返してあげてください。
 
 tweetするには
 
-{{< highlight bash >}}
-
+```shell
 $ ttytter -ssl -status="tweet内容"
-
-{{< / highlight >}}
+```
 
 となりますので先ほどの温度取得pythonスクリプトで生成してあげればいいのですが他用途でもこの温度取得scriptは使っていますので(グラフを作成している)、別途簡単なshellscriptで先ほどのpythonスクリプトを叩いてtweetしています。
 
-{{< highlight bash >}}
-
+```shell
 #!/bin/sh
 export LANG=ja_JP.utf8
 export LANGUAGE=japanese
@@ -318,8 +301,7 @@ export LANGUAGE=japanese
  hpa_value=`echo $text | awk -F, '{print $5}'`
  tweet="${time_value} 現在の室温は ${temp_value} 度、湿度は ${humidity_value} ％、気圧は ${hpa_value} hPaです。"
  ttytter -ssl -status="${tweet}"
-
-{{< / highlight >}}
+```
 
 上記の通りsudoをscriptより実行していますのでroot_tweet.pyの実行はsudoersファイルを編集してNOPASSで実行できないと定期的に実行してくれません。あとはこれをcronで回すだけ！
 気温測定のScriptとTweet部を別にしておく事でttytterが使えなくなったときの修正も楽ですし、特定の室温を超えたときだけtweetなんて条件文もちょちょいと書けていいかな。

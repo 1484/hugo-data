@@ -29,7 +29,7 @@ PIRCやkeitairc等のscriptを移し、このサイトと別でチラ裏的に�
 そうこうしている内に気付いたのがIPアドレスの違い。PCにもAndroidにもIPv4とIPv6のアドレスが割り当たっていますが、PCではIPv4が優先になっています。ふとAndroidについて調べてみると優先はIPv6のようで。なるほど、ここまで分かれば解決は一瞬。
 
 
-```
+```shell
 server{
     listen  80;
     listen  [::]:80;

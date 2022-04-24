@@ -39,20 +39,20 @@ GPD PocketはWindows版とUbuntu版が発売されました。Ubuntu版の方が
 
 vi で /etc/default/grub を編集します。
 
-```
+```shell
 $ sudo vi /etc/default/grub
 ```
 
 編集する箇所は、GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" の行をコメントアウトするだけです。コメントアウトするだけで問題無い筈ですが私は念の為
 
-```
+```shell
 GRUB_CMDLINE_LINUX_DEFAULT=""
 ```
 
 とあえて設定しました。
 編集が終わったらupdate-grubでgrubを更新して完了です。
 
-```
+```shell
 $ sudo update-grub
 ```
 

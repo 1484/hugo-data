@@ -33,16 +33,16 @@ WordPressで構築してきたこのサイトをHugoに移行できないか検�
 
 Hugoではserverオプションを用いる事でローカルにhttpdを上げて動作確認する事が出来ますがDockerの中で動作させてもそのままじゃ駄目よね？と言う事でコンテナを起動する時にHugoのデフォルトのポートである1313をForwardしようと
 
-```
-docker run -h hugo --name hugo -p 1313:1313 -v ~/hugo:/root/hugo -t -i hugo:current /bin/bash
+```shell
+$ docker run -h hugo --name hugo -p 1313:1313 -v ~/hugo:/root/hugo -t -i hugo:current /bin/bash
 ```
 
 していますがhugo serverしても見えません。はてさて？と思いながら一晩寝て起きたら簡単な事でした。ここでdockerコマンドで指定するコンテナ内部のポートはコンテナに割り当たるIPに対してのものです。**hugo serverコマンドではデフォルトではlocalhost:1313に対してサーバを立ち上げる**ので見えるわけが無いのです。
 
 そうとわかれば簡単です。コンテナ内部でHugoを起動するオプションを変更します。
 
-```
-hugo server --baseURL="localhost" --bind="172.17.0.2" -v
+```shell
+$ hugo server --baseURL="localhost" --bind="172.17.0.2" -v
 ```
 
 ここで--bindのIPアドレスはこのコンテナに割り当たっている内部IPアドレスを指定します。これで無事コンテナ外のブラウザから動作確認を取る事が出来ました。よしよし。

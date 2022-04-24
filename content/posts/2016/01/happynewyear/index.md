@@ -18,3 +18,4 @@ toc = false
 
 勉強する時間をもうちょっと作って、もっと自分を磨く。
 
+{{< fancybox "." "OpenStack.jpg" "OpenStack" "gallery" >}}
