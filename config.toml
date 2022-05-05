@@ -26,4 +26,6 @@ theme = "rokkaku"
   styles = ["/css/custom.css", ""]
 
   [ga]
-  trackingId = "UA-2733118-1"
+  # trackingId = "UA-2733118-1"
+  trackingId = "G-NKS2GSR0KZ"
+  
