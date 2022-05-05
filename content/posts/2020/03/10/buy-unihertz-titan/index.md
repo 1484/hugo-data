@@ -38,6 +38,4 @@ BlackBerry KEY2も持っていますが、サイズとしてはやはりこの�
 # しばらく愛用
 少しまったりできるカフェなどではiPadやPCを展開するでしょうけれども、椅子のみの勉強会であったり電車などではポチポチこの端末で駄文を連ねていくことでしょう。
 
-{{< flickr >}}
-<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/keruru/49842217046/in/photostream/" title="Unihertz TiTAN買いました"><img src="https://live.staticflickr.com/65535/49842217046_a98f104e19_c.jpg" width="800" height="600" alt="Unihertz TiTAN買いました"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-{{</ flickr >}}
+{{< fancybox "." "49842217046_a98f104e19_c.jpg" "Unihertz TiTAN買いました" >}}
