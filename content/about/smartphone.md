@@ -5,12 +5,13 @@ title = "愛用中のPDA/SmartPhone"
 slug = "smartphone"
 +++
 
-- iPhoneSE 2nd(MAIN/docomo)
+- Google Pixel 6 Pro(MAIN/docomo/SIM FREE)
 - Unihertz TiTAN(SUB/docomo/SIM FREE)
 - OPPO Reno-A(SUB/rakuten/SIM FREE)
 - iPad Pro 11inch(SUB/docomo/SIM FREE)
 
 <!-- 
+- iPhoneSE 2nd(MAIN/docomo)
 - Xperia 1(MAIN/docomo/SO-03L)
 - Xperia XZ Premium(SUB/SIM FREE)
 - BlackBerry Priv(SUB/SIM FREE)

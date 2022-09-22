@@ -1,12 +1,20 @@
 baseurl = "http://keruru.net/"
-title =  "Keruruのブログ "
+title =  "けるるmemo "
 languageCode = "ja-jp"
 hasCJKLanguage = true
-theme = "rokkaku"
+theme = "primer"
+summaryLength = 70
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+copyright = "Copyright &copy; Keruru All Rights Reserved. 2016&ndash;2022"
+googleAnalytics = "G-NKS2GSR0KZ"
+paginate = 5
+
 
 [taxonomies]
   tag = "tags"
   archive = "archives"
+  category = 'categories'
 
 [markup]
   [highlight]
@@ -21,9 +29,12 @@ theme = "rokkaku"
   description = "けるるの日常を綴る..."
   github = "1484"
   twitter = "keruru"
+  useTwitterCard = true
   copyrightHtml = "Copyright &copy; Keruru All Rights Reserved. 2016&ndash;2021"
   rss = true
   styles = ["/css/custom.css", ""]
+  showFooterCredits = true
+
 
   [ga]
   # trackingId = "UA-2733118-1"
