@@ -1,6 +1,6 @@
 ---
-title: "关于 Hugo NexT 组织"
-description: "Hugo NexT 组织介绍说明。"
+title: "about me"
+description: "about me"
 
 date: 2022-06-09T20:12:52+08:00
 lastmod: 2022-06-09T20:12:52+08:00
@@ -12,16 +12,64 @@ copyright: false
 url: about.html
 ---
 
-`Hugo NexT` 组织是由众多喜爱 `NexT` 主题及风格的世界各地友人共同组建而成，为的就是让这个主题继续在 `Hugo` 引擎中也能得到发扬光大，在此也欢迎你的加入！
+{{< img src="/img/avatar.jpg" >}}
 
-# 我们的愿景
+# ペンネーム/Nick
+けるる etc
 
-延续 `NexT` 经典的黑白调搭配，保持简单的易用性及强大的功能。
+# お仕事
+テクニカルライティング／システムエンジニア／ネットワークエンジニア
 
-# 使用反馈
+# 愛用のPC
+- Apple MacBookAir(2020/M1)
+- Ryzen自作PC
+- SAMSUNG Chromebook Pro(妻に貸出中)
+- ThinkPad T440s(妹に貸出中)
+- GPD Pocket
 
-- 加入 [GitHub Discussions](https://github.com/hugo-next/hugo-theme-next/discussions) 或 [Gitter](https://gitter.im/hugo-next/community) 在线讨论 :beers:
-- [GitHub Issues](https://github.com/hugo-next/hugo-theme-next/issues/new?labels=Bug&template=bug-report.md) 提交错误报告 :bug:
-- [GitHub Feature](https://github.com/hugo-next/hugo-theme-next/issues/new?labels=Feature+Request&template=feature-request.md) 表新功能的想法 :sparkles:
+<!--
+- Surface Pro 4(故障)
+- NEC LAVIE ProMobile(売却)
+- HP Pavilion x2 10-n100(退役)
+- hp Chromebook11(退役)
+- VAIO TypeF(退役)
+- SurfaceRT(コレクション)
+- VAIO TypeP(コレクション)
+-->
 
-> 同时国内用户也可加入 QQ 群交流： 604710815
+# 愛車
+- MITSUBISHI PAJERO mini '2012
+- HONDA CRF250RALLY '2018
+- MERIDA SCULTURA4000 '2015
+- Carry-Me '2016
+- GIOS PANTO '2007
+- R&M BD-1 '2006
+
+# 愛用のSmartPhone/PDA
+- Google Pixel 6 Pro(MAIN/docomo/SIM FREE)
+- Unihertz TiTAN(SUB/docomo/SIM FREE)
+- OPPO Reno-A(SUB/rakuten/SIM FREE)
+- iPad Pro 11inch(SUB/docomo/SIM FREE)
+
+<!-- 
+- iPhoneSE 2nd(MAIN/docomo)
+- Xperia 1(MAIN/docomo/SO-03L)
+- Xperia XZ Premium(SUB/SIM FREE)
+- BlackBerry Priv(SUB/SIM FREE)
+- HUAWEI MediaPad M2(貸し出し中/SIM FREE)
+- Nexus 6(SUB/SIM FREE)
+- YOGA Tablet2 8 with Windows(SUB)
+- Apple iPad Air(退役)
+- SONY Tablet P(退役)
+- SONY Xperia Z Ultra(退役/SIM FREE/やや故障)
+- RIM Blackberry Q10(退役/SIM FREE)
+- NOKIA Lumia920(退役/SIM FREE)
+- iPhone5s(退役/docomo/故障)
+- GALAXY Note(退役/docomo/SC-05D)
+- MEDIAS WP(退役/docomo/N-06C)
+- Xperia mini pro(退役/SIM FREE)
+- Nokia N8(退役/SIM FREE)
+- HTC Hero(退役/SIM FREE)
+-->
+
+
