@@ -40,7 +40,7 @@ toc: true
 
 インストールが完了するとターミナルが開くのでパッケージを最新にしておきます。
 
-````
+````text
 $ sudo apt update && sudo apt dist-upgrade -y
 ````
 
@@ -48,7 +48,7 @@ $ sudo apt update && sudo apt dist-upgrade -y
 
 好みのアプリなので好きにしていただければと思いますが、私はdockerとdocker-composeを入れました。
 
-````
+````shell
 $ sudo apt install docker docker-compose
 ````
 
