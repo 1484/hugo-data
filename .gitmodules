@@ -8,6 +8,6 @@
 [submodule "themes/primer"]
 	path = themes/primer
 	url = https://github.com/1484/hugo-primer.git
-[submodule "themes/next"]
-	path = themes/next
+[submodule "themes/hugo-theme-next"]
+	path = themes/hugo-theme-next
 	url = https://github.com/elkan1788/hugo-theme-next.git
