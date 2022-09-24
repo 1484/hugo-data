@@ -119,11 +119,11 @@ Interface Tunnel0.0 is up
 
 Interface の状態を確認すると下記太字部分ですが 132 日以上 1 パケットのエラーも drop も無くとても安定して通信できている事を示しています。
 
-> Logical INTERFACE:
-> Elapsed time after clear counters **132d15h33m13s**
-> 1086554332 packets input, 854515532035 bytes, **0 errors**
-> 1086554332 unicasts, 0 non-unicasts, 0 unknown protos
-> **0 drops**, 0 misc errors
+>  Elapsed time after clear counters **132d15h33m13s**
+
+>  1086554332 packets input, 854515532035 bytes, **0 errors**
+
+>  **0 drops**, 0 misc errors
 
 ```shell
 rspi-server:~ $ sudo ping -q  -i 0.1 -c 100 8.8.8.8
