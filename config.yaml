@@ -119,17 +119,17 @@ menus:
       name: about
       pageref: /about.html
       pre: user
-      weight: 3
+      weight: 4
     - identifier: travel
       name: travel
       pageref: /travel.html
-      pre: travel
-      weight: 4
+      pre: plane
+      weight: 3
     - identifier: archives
       name: archives
       pageref: /archives
       pre: archive
-      weight: 5
+      weight: 2
 
 #-----------------------------------------
 # Hugo NexT 主题参数配置

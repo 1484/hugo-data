@@ -1,7 +1,5 @@
 ---
-title: "Blog"
-menu: "main"
-weight: 2
+pre: blog
 ---
 
 <!-- This file is for the blog list page. -->
