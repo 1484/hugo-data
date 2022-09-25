@@ -1,0 +1,4 @@
+  {{ partial "_thirdparty/analytics/ga4.html" . }}  
+{{- if isset .Site.Params.analytics "laid" }}
+  {{ partial "_thirdparty/analytics/51la.html" . }}  
+{{- end }}
