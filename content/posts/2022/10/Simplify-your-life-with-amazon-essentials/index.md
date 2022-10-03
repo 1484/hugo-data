@@ -31,7 +31,7 @@ toc: true
 
 きっかけはamazonのタイムセールで半額になっており、写真だけで判断するのは危険だけれどもそこそこ良さそうに見えたこと。あとアメリカに本社がある会社がOxford shirtsに雑な粗悪品をamazon essentialsと言うブランドを付けて売ることもないだろうなんて思ったので試しに買ってみたのでした。
 
-{{< fancybox “.” “Oxford-shits.jpeg” “amazon essentialsのOxfordシャツ。なかなか良いです” “gallery” >}}
+{{< fancybox “.” “Oxford-shits.jpeg” “amazon essentialsのOxfordシャツ なかなか良いです” “gallery” >}}
 
 ## サイズ感
 
