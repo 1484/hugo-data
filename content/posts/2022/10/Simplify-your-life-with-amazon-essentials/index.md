@@ -1,19 +1,19 @@
-—
+---
 title: amazon essentialsで洋服選びを減らしてシンプルな生活をお試し
 date: 2022-10-02T16:30:00+09:00
 lastmod: 2022-10-02T16:30:00+09:00
 draft: false
 author: Keruru
 # authorlink: https://author.site
-categories: [“things”]
-tags: [“amazon”, “fasion”, “lifehack”]
+categories: ["things"]
+tags: ["amazon", "fasion", "lifehack"]
 # showcase: true
-cover: “Oxford-shirts.jpeg”
+cover: "Oxford-shirts.jpeg"
 
-archives: “2022”
+archives: "2022"
 toc: true
 
-—
+---
 
 # 学生時代に比べて朝考える時間が増えた？
 
