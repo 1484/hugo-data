@@ -47,7 +47,9 @@ markup:
     # 更多的样式：https://xyproto.github.io/splash/docs/all.html
     # Highlight style: monokai | emacs | api | dracula | friendly
     # More: https://xyproto.github.io/splash/docs/all.html
-    style: "monokai"
+    style: monokai
+    tabWidth: 2
+    anchorLineNos: true
   tableOfContents:
     # 开始/结束标题级别：1-6
     # Heading title level of start or end: 1-6
@@ -268,7 +270,11 @@ params:
 
   # 是否在侧边栏显示文章、分类、标签信息
   # Posts / Categories / Tags in sidebar.
-  siteState: true
+  siteState:
+    basic: true
+    statistic:
+      enable: true
+  #    plugin: busuanzi
 
   # 社交链接地址
   # 用法： `Key: 名称 || 链接地址 || 图标`
@@ -1056,7 +1062,7 @@ params:
     # The default CDN provider of third-party plugins.
     # Available values: local | unpkg | cdnjs | custom
     # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
-    plugins: unpkg
+    plugins: local
     # TODO
     # Custom CDN URL
     # For example:
