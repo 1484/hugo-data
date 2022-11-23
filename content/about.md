@@ -72,4 +72,6 @@ url: about.html
 - HTC Hero(退役/SIM FREE)
 -->
 
+# 雑記
+[雑多な記録](/journal/)についてはメインコンテンツから除外した
 
