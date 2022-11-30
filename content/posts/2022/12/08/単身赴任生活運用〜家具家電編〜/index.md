@@ -8,7 +8,7 @@ author: Keruru
 categories: ["things"]
 tags: ["camp", "lifehack"]
 # showcase: true
-#cover: "Oxford-shirts.jpeg"
+cover: "camp-room.jpeg"
 
 archives: "2022"
 toc: true
