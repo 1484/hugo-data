@@ -3,7 +3,7 @@ title: 単身赴任生活運用〜通信編〜
 slug: lives-away-from-home-for-work-network
 date: 2022-12-10T00:00:00+09:00
 lastmod: 2022-12-10T00:00:00+09:00
-draft: true
+draft: false
 author: Keruru
 # authorlink: https://author.site
 categories: ["things"]
