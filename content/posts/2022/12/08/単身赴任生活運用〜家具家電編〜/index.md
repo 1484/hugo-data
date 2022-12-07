@@ -2,7 +2,7 @@
 title: 単身赴任生活運用〜家具・家電編〜
 date: 2022-12-08T00:00:00+09:00
 lastmod: 2022-12-08T00:00:00+09:00
-draft: true
+draft: false
 author: Keruru
 # authorlink: https://author.site
 categories: ["things"]
