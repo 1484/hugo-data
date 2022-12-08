@@ -6,7 +6,7 @@ draft: false
 author: Keruru
 # authorlink: https://author.site
 categories: ["things"]
-tags: ["camp", "lifehack"]
+tags: ["camp", "lifehack", "ssmjp", "advent calendar"]
 # showcase: true
 cover: "camp-room.jpeg"
 

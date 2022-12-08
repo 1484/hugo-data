@@ -7,7 +7,7 @@ draft: true
 author: Keruru
 # authorlink: https://author.site
 categories: ["things"]
-tags: ["camp", "lifehack"]
+tags: ["camp", "lifehack", "ssmjp", "advent calendar"]
 # showcase: true
 cover: "wimax2plus.jpeg"
 

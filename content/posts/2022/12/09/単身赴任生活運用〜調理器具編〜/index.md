@@ -3,13 +3,13 @@ title: 単身赴任生活運用〜調理器具編〜
 slug: lives-away-from-home-for-work-cook
 date: 2022-12-09T00:00:00+09:00
 lastmod: 2022-12-09T00:00:00+09:00
-draft: true
+draft: false
 author: Keruru
 # authorlink: https://author.site
 categories: ["things"]
-tags: ["camp", "lifehack"]
+tags: ["camp","ssmjp", "lifehack", "advent calendar"]
 # showcase: true
-cover: "Oxford-shirts.jpeg"
+cover: "cook.jpeg"
 
 archives: "2022"
 toc: true
