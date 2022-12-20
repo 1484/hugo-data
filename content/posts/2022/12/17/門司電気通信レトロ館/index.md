@@ -3,7 +3,7 @@ title: 門司電気通信レトロ館
 slug: ntt-west-moji-museum
 date: 2022-12-17T00:00:00+09:00
 lastmod: 2022-12-17T00:00:00+09:00
-draft: true
+draft: false
 author: Keruru
 # authorlink: https://author.site
 
