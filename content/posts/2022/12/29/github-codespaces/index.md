@@ -54,9 +54,12 @@ GitHub ClientとしてWorkingCopyを愛用しています。少し手間です�
 ## iPadでのBlog管理がどう変わる？
 今までもCloudflare PagesのPreview Build機能を使うことで公開前のコンテンツを実際にブラウザで表示に問題が無いかなど確認しながら記事を書いていく事が出来ましたが、あくまでGitHubにpushしてからCloudflare PagesでPreview Buildが走るためpushしないとPreviewを見る事が出来ませんでした。更にはPreview用のURLを知るためにCloudflare Pagesのサイトを訪れる必要もあり、少し手間と感じる部分がありましたが、これが一変します。
 
+{{< fancybox "." "run-docker.png" "dockerで環境構築し動かせるの素敵" "gallery" >}}
+
 ブラウザの中で動くVScodeで記事を書きながらvmの中でdockerを動かし記事をbuildすることが出来ます。私はHugoのextentionなどを用いているのでdockerを動かす方法を用いていますが、GitHub Codespacesで用意されるvmにはすでにHugoがインストールされているので、普通にHugo Serverを動かす事が出来ます。すごい。
 
 つまりiPadでの執筆時にもdockerでリアルタイムにbuildした記事をブラウザで確認しながら執筆していけるPCと遜色のない環境が構築できる様になったと言えます。とてもありがたいですね。
 
+{{< fancybox "." "codespace-docker-hugo.png" "codespacesで記事を書きながらもう1枚のブラウザでpreview" "gallery" >}}
 
 {{< fancybox "." "gaikan.png" "曲線がとても美しい作り" "gallery" >}}
