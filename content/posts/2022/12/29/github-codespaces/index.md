@@ -60,6 +60,4 @@ GitHub ClientとしてWorkingCopyを愛用しています。少し手間です�
 
 つまりiPadでの執筆時にもdockerでリアルタイムにbuildした記事をブラウザで確認しながら執筆していけるPCと遜色のない環境が構築できる様になったと言えます。とてもありがたいですね。
 
-{{< fancybox "." "codespace-docker-hugo.png" "codespacesで記事を書きながらもう1枚のブラウザでpreview" "gallery" >}}
-
-{{< fancybox "." "gaikan.png" "曲線がとても美しい作り" "gallery" >}}
+{{< fancybox "." "codespaces-docker-hugo.png" "codespacesで記事を書きながらもう1枚のブラウザでpreview" "gallery" >}}
