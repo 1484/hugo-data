@@ -57,7 +57,7 @@ docker で hugo server を立ち上げ、ブラウザで http://localhost:1313 �
 
 ### iPad の場合
 
-GitHub Client として WorkingCopy を愛用しています。少し手間ですが branch を切り、ある程度記事を書き上げたら GitHub へ push することで、Cloudflare Pages が Preview Build をしてくれるので、Preview 用の URL で公開前の記事をブラウザで確認しながら記事を書いていく事が出来ます。
+GitHub Client として [WorkingCopy](https://apps.apple.com/jp/app/working-copy-git-client/) を愛用しています。少し手間ですが branch を切り、ある程度記事を書き上げたら GitHub へ push することで、Cloudflare Pages が Preview Build をしてくれるので、Preview 用の URL で公開前の記事をブラウザで確認しながら記事を書いていく事が出来ます。
 
 ## iPad での Blog 管理がどう変わる？
 
