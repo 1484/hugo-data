@@ -12,7 +12,7 @@ author: Keruru
 categories: ["computer"]
 
 # よく使うtag
-# amazon, android, conoha, chromebook, ipad, linux, network, openstack, 
+# amazon, android, conoha, chromebook, ipad, linux, network, openstack,
 tags: ["ipad", "github"]
 # showcase: true
 cover: "github-codespaces.png"
@@ -21,52 +21,59 @@ archives: "2022"
 toc: true
 # {{< fancybox "." "photos.jpeg" "alt text" "gallery" >}}
 ---
-## GitHub Codespacesが使えるようになった
 
-春先からパブリックベータなどの話があり話題に時折上がっていた[GitHub Codespaces](https://github.com/codespaces)が使えるようになりました！しかも毎月60時間まで無料?!と言うことで大変気になります。これまでもiPadやChromebookなどVS Codeなどが入れられない端末上でちょっとした開発やBlogの記事を書いたり出来ないかiPad活用の観点からCloud9など様々なソリューションを試してきましたが、いよいよ決定版と言える環境が整いそうです。
+## GitHub Codespaces が使えるようになった
+
+春先からパブリックベータなどの話があり話題に時折上がっていた[GitHub Codespaces](https://github.com/codespaces)が使えるようになりました！しかも毎月 60 時間まで無料?!と言うことで大変気になります。これまでも iPad や Chromebook など VS Code などが入れられない端末上でちょっとした開発や Blog の記事を書いたり出来ないか iPad 活用の観点から Cloud9 など様々なソリューションを試してきましたが、いよいよ決定版と言える環境が整いそうです。
 
 ### 無料でできること
-60時間無料！と言うことですが、何が60時間無料なのでしょう？と言う事で詳細を確認しました。
 
-- 2coreのvmで60時間無料
-- 4coreのvmで30時間無料
+60 時間無料！と言うことですが、何が 60 時間無料なのでしょう？と言う事で詳細を確認しました。
+
+- 2core の vm で 60 時間無料
+- 4core の vm で 30 時間無料
 - 15GB/月までのストレージが無料
-  - 月15GBまでのストレージを自由に使える...では無く、Codespcaesとprebuildsなど1h単位での集計加算
+  - 月 15GB までのストレージを自由に使える...では無く、Codespcaes と prebuilds など 1h 単位での集計加算
 
-1コア120時間が無料と言うことらしく2コアにした場合半分の60時間、と言うことらしいです。
-ちょっとストレージがややこしいですね。15GBのストレージ領域を与えられ自由に使えるのではなく、領域に対してgh repo cloneとかで消費した領域などが加算されていく感じです。
-Codespacesで管理する領域に100GBのデータなどリポジトリファイルが1時間存在していた場合、その時点で100GB利用と数えられるようです。
-Codespacesで同時に管理できるCodespaceは無料プランの場合2つまでとの事なのでCodespaceで作業しては削除して別のリポジトリのCodespaceを作って作業する、なんて事も考えられますがその都度ストレージ領域が消費されていくのだと思います。
+1 コア 120 時間が無料と言うことらしく 2 コアにした場合半分の 60 時間、と言うことらしいです。
+ちょっとストレージがややこしいですね。15GB のストレージ領域を与えられ自由に使えるのではなく、領域に対して gh repo clone とかで消費した領域などが加算されていく感じです。
+Codespaces で管理する領域に 100GB のデータなどリポジトリファイルが 1 時間存在していた場合、その時点で 100GB 利用と数えられるようです。
+Codespaces で同時に管理できる Codespace は無料プランの場合 2 つまでとの事なので Codespace で作業しては削除して別のリポジトリの Codespace を作って作業する、なんて事も考えられますがその都度ストレージ領域が消費されていくのだと思います。
 
-もし60時間を超えた場合でも2coreの場合1時間当たり$0.18と25円程度の様なのでとてもありがたいと感じます。まぁプライベートで個人利用なのでそうそう超えないと思いますが。
+もし 60 時間を超えた場合でも 2core の場合 1 時間当たり$0.18 と 25 円程度の様なのでとてもありがたいと感じます。まぁプライベートで個人利用なのでそうそう超えないと思いますが。
 
-ストレージのことを考えると作業を終わった際にCodespaceを削除するのではなく停止とするのが良さそうです。
+ストレージのことを考えると作業を終わった際に Codespace を削除するのではなく停止とするのが良さそうです。
 
 {{< fancybox "." "stop-codespace.png" "Codespaceは削除じゃなくて停止にしよう" "gallery" >}}
 
+## 現在の Hugo Blog 管理
 
-## 現在のHugo Blog管理
-このBlogは現在 GitHubとCloudflare Pagesを活用して更改しています。記事をGitHubへpushするとCloudflare Pagesにて自動Buildが走り、記事が更改されます。
-GitHubで管理することで、PCでもiPadでも記事を書けるようにしています。
-### PCの場合
-dockerでhugo serverを立ち上げ、ブラウザで http://localhost:1313 に接続し確認しながら記事を書いていく事が出来ます。
+この Blog は現在 GitHub と Cloudflare Pages を活用して更改しています。記事を GitHub へ push すると Cloudflare Pages にて自動 Build が走り、記事が公開されます。
+GitHub で管理することで、PC でも iPad でも記事を書けるようにしています。
 
-### iPadの場合
-GitHub ClientとしてWorkingCopyを愛用しています。少し手間ですがbranchを切り、ある程度記事を書き上げたらGitHubへpushすることで、Cloudflare Pagesが Preview Buildをしてくれるので、Preview用のURLで公開前の記事をブラウザで確認しながら記事を書いていく事が出来ます。
+### PC の場合
 
-## iPadでのBlog管理がどう変わる？
-今までもCloudflare PagesのPreview Build機能を使うことで公開前のコンテンツを実際にブラウザで表示に問題が無いかなど確認しながら記事を書いていく事が出来ましたが、あくまでGitHubにpushしてからCloudflare PagesでPreview Buildが走るためpushしないとPreviewを見る事が出来ませんでした。更にはPreview用のURLを知るためにCloudflare Pagesのサイトを訪れる必要もあり、少し手間と感じる部分がありましたが、これが一変します。
+docker で hugo server を立ち上げ、ブラウザで http://localhost:1313 に接続し確認しながら記事を書いていく事が出来ます。
+
+### iPad の場合
+
+GitHub Client として WorkingCopy を愛用しています。少し手間ですが branch を切り、ある程度記事を書き上げたら GitHub へ push することで、Cloudflare Pages が Preview Build をしてくれるので、Preview 用の URL で公開前の記事をブラウザで確認しながら記事を書いていく事が出来ます。
+
+## iPad での Blog 管理がどう変わる？
+
+今までも Cloudflare Pages の Preview Build 機能を使うことで公開前のコンテンツを実際にブラウザで表示に問題が無いかなど確認しながら記事を書いていく事が出来ましたが、あくまで GitHub に push してから Cloudflare Pages で Preview Build が走るため push しないと Preview を見る事が出来ませんでした。更には Preview 用の URL を知るために Cloudflare Pages のサイトを訪れる必要もあり、少し手間と感じる部分がありましたが、これが一変します。
 
 {{< fancybox "." "run-docker.png" "dockerで環境構築し動かせるの素敵" "gallery" >}}
 
-ブラウザの中で動くVScodeで記事を書きながらvmの中でdockerを動かし記事をbuildすることが出来ます。上の画像は`docker-compose up` している画像になりますが、hugo serverが動作すると右下にポップアップが表示され、`ブラウザで開く` ボタンを選択するとdockerで動いているhugo serverへブラウザでアクセスできます。
+ブラウザの中で動く VScode で記事を書きながら vm の中で docker を動かし記事を build することが出来ます。上の画像は`docker-compose up` している画像になりますが、hugo server が動作すると右下にポップアップが表示され、`ブラウザで開く` ボタンを選択すると docker で動いている hugo server へブラウザでアクセスできます。
 
-私はHugoのextentionなどを用いているのでdockerを動かす方法を用いていますが、GitHub Codespacesで用意されるvmにはすでにHugoがインストールされているので、普通にHugo Serverを動かす事が出来ます。すごい。
+私は Hugo の extention などを用いているので docker を動かす方法を用いていますが、GitHub Codespaces で用意される vm にはすでに Hugo がインストールされているので、普通に Hugo Server を動かす事が出来ます。すごい。
 
-つまりiPadでの執筆時にもdockerでリアルタイムにbuildした記事をブラウザで確認しながら執筆していけるPCと遜色のない環境が構築できる様になったと言えます。とてもありがたいですね。
+つまり iPad での執筆時にも docker でリアルタイムに build した記事をブラウザで確認しながら執筆していける PC と遜色のない環境が構築できる様になったと言えます。とてもありがたいですね。
 
 {{< fancybox "." "codespaces-docker-hugo.png" "codespacesで記事を書きながらもう1枚のブラウザでpreview" "gallery" >}}
 
-## Webブラウザさえあれば生きていける
-表題ではiPadと記載しましたがブラウザさえ動いていればOKな訳ですのでChromebookとの相性も良いでしょう。
-Office Mobileなどブラウザで動くWord/Excelが出てきたりしてビックリしましたが、Web技術で全てが解決する時代がいよいよやってきた感じですね。
+## Web ブラウザさえあれば生きていける
+
+表題では iPad と記載しましたがブラウザさえ動いていれば OK な訳ですので Chromebook との相性も良いでしょう。
+Office Mobile などブラウザで動く Word/Excel が出てきたりしてビックリしましたが、Web 技術で全てが解決する時代がいよいよやってきた感じですね。
