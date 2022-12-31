@@ -4,7 +4,7 @@ date: 2018-04-08T17:54:47+09:00
 slug: chromebook_develop
 tags: ["chromebook", "develop", "ConoHa"]
 category: ["computer"]
-cover: "cloud9.png"
+imgs: "cloud9.png"
 archives: "2018"
 toc: true
 ---

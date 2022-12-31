@@ -4,7 +4,7 @@ date: 2018-03-09T09:14:07+09:00
 draft: false
 categories: ["computer"]
 tags: ["chromebook","Surface","SurfacePro4","linux"]
-cover: "chromebook.jpg"
+imgs: "chromebook.jpg"
 tags: ["chromebook", "Linux"]
 archives: "2018"
 toc: true

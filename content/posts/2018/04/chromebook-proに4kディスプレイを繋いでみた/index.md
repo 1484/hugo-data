@@ -2,7 +2,7 @@
 title: "chromebook proに4Kディスプレイを繋いでみた"
 date: 2018-04-23T22:37:07+09:00
 slug: "chromebook proに4Kディスプレイを繋いでみた"
-cover: "chromebook.jpg"
+imgs: "chromebook.jpg"
 categories: ["gadget"]
 tags: ["chromebook"]
 archives: "2018"

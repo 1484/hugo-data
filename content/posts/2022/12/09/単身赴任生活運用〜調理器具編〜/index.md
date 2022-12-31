@@ -9,7 +9,7 @@ author: Keruru
 categories: ["things"]
 tags: ["camp","ssmjp", "lifehack", "advent calendar"]
 # showcase: true
-cover: "cook.jpeg"
+imgs: "cook.jpeg"
 
 archives: "2022"
 toc: true

@@ -8,7 +8,7 @@ author: Keruru
 categories: ["cloud"]
 tags: ["hugo"]
 # showcase: true
-cover: "cloudflare_with_hugo.png"
+imgs: "cloudflare_with_hugo.png"
 
 archives: "2021"
 toc: true

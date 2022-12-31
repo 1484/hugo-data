@@ -4,7 +4,7 @@ date: 2018-09-08T23:25:32+09:00
 draft: false
 slug: バンコク・チェンマイ旅行
 categories: ["trip"]
-cover: "chenmai.jpg"
+imgs: "chenmai.jpg"
 archives: "2018"
 toc: true
 ---

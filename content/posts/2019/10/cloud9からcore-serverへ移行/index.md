@@ -4,7 +4,7 @@ date: 2019-10-19T23:07:32+09:00
 slug: cloud9からcore-serverへ移行
 tags: ["develop", "ConoHa", "Chromebook"]
 categories: ["cloud"]
-cover: "core-server.jpg"
+imgs: "core-server.jpg"
 archives: "2019"
 toc: true
 

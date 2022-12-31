@@ -4,7 +4,7 @@ draft: false
 title: "函館・小樽観光旅行"
 categories:
 - trip
-cover: "4645174294_3ae84237ae_h.jpg"
+imgs: "4645174294_3ae84237ae_h.jpg"
 archives: 2010
 toc: false
 ---

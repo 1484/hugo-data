@@ -5,7 +5,7 @@ draft: false
 tags: ["CRF250RALLY", "motorcycle"]
 slug: 赴任先までツーリング
 categories: ["trip"]
-cover: "CRF250rally.jpg"
+imgs: "CRF250rally.jpg"
 archives: "2018"
 toc: true
 ---

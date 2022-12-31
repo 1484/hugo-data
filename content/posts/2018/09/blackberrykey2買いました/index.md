@@ -4,7 +4,7 @@ date: 2018-09-17T12:46:29+09:00
 slug: BlackBerryKEY2買いました
 tags: ["BlackBerry", "android"]
 categories: ["gadget"]
-cover: "blackberryKEY2.jpg"
+imgs: "blackberryKEY2.jpg"
 archives: "2018"
 toc: true
 

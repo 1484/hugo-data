@@ -8,7 +8,7 @@ author: Keruru
 categories: ["gadget"]
 tags: ["chromebook", "linux"]
 # showcase: true
-cover: "crostini-hugo.png"
+imgs: "crostini-hugo.png"
 
 archives: "2021"
 toc: true

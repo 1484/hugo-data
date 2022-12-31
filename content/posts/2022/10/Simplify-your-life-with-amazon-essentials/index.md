@@ -8,7 +8,7 @@ author: Keruru
 categories: ["things"]
 tags: ["amazon", "fasion", "lifehack"]
 # showcase: true
-cover: "Oxford-shirts.jpeg"
+imgs: "Oxford-shirts.jpeg"
 
 archives: "2022"
 toc: true

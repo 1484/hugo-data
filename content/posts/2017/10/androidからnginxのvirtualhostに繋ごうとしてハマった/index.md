@@ -5,7 +5,7 @@ draft: false
 slug: AndroidからnginxのVirtualHostに繋ごうとしてハマった
 tags: ["nginx", "Linux"]
 category: ["computer"]
-cover: "linux.png"
+imgs: "linux.png"
 archives: "2017"
 toc: true
 ---

@@ -8,7 +8,7 @@ author: Keruru
 categories: ["gadget"]
 tags: ["iPad"]
 # showcase: true
-cover: "cover.jpg"
+imgs: "cover.jpg"
 
 # 画像貼り付けメモ
 # {{< fancybox "." "<filename>" "<alt message>" "gallery" >}}

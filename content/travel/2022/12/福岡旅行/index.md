@@ -4,7 +4,7 @@ date: 2022-12-19T14:59:59+09:00
 draft: false
 slug: JAL-dokokani-FUK
 categories: ["trip"]
-cover: "jal-FUK.jpg"
+imgs: "jal-FUK.jpg"
 archives: "2022"
 toc: true
 ---

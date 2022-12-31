@@ -4,7 +4,7 @@ date: 2018-05-05T20:25:26+09:00
 draft: false
 slug: 
 categories: ["cloud"]
-cover: "amazon-photo.jpg"
+imgs: "amazon-photo.jpg"
 archives: "2018"
 toc: true
 ---

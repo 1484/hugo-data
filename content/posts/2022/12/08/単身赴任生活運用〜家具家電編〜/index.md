@@ -8,7 +8,7 @@ author: Keruru
 categories: ["things"]
 tags: ["camp", "lifehack", "ssmjp", "advent calendar"]
 # showcase: true
-cover: "camp-room.jpeg"
+imgs: "camp-room.jpeg"
 
 archives: "2022"
 toc: true

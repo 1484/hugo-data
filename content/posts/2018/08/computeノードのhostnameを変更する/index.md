@@ -5,7 +5,7 @@ draft: false
 slug: computeノードのhostnameを変更する
 categories: ["cloud"]
 tags: ["devstack", "openstack"]
-cover: "OpenStack.jpg"
+imgs: "OpenStack.jpg"
 archives: "2018"
 toc: true
 ---

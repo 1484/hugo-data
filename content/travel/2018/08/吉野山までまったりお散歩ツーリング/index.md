@@ -5,7 +5,7 @@ draft: false
 slug: 吉野山までまったりお散歩ツーリング
 tags: ["CRF250RALLY", "motorcycle"]
 categories: ["trip"]
-cover: "yoshinosan.jpg"
+imgs: "yoshinosan.jpg"
 archives: "2018"
 toc: true
 ---

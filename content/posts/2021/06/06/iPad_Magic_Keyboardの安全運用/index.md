@@ -8,7 +8,7 @@ author: Keruru
 categories: ["gadget"]
 tags: ["iPad"]
 # showcase: true
-cover: "Magic_Keyboard.jpg"
+imgs: "Magic_Keyboard.jpg"
 
 archives: "2021"
 toc: true

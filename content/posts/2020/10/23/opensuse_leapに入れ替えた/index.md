@@ -7,7 +7,7 @@ author: Keruru
 categories: ["computer"]
 tags: ["linux", "openSUSE"]
 # showcase: true
-cover: "linux.png"
+imgs: "linux.png"
 
 archives: "2020"
 toc: true

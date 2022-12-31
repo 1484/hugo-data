@@ -9,7 +9,7 @@ author: Keruru
 categories: ["things"]
 tags: ["camp", "lifehack", "ssmjp", "advent calendar"]
 # showcase: true
-cover: "wimax2plus.jpeg"
+imgs: "wimax2plus.jpeg"
 
 archives: "2022"
 toc: true

@@ -15,7 +15,7 @@ categories: ["computer"]
 # amazon, android, conoha, chromebook, ipad, linux, network, openstack, 
 tags: ["network", "telecom"]
 # showcase: true
-cover: "aka-denwa.png"
+imgs: "aka-denwa.png"
 
 archives: "2022"
 toc: true

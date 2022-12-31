@@ -5,7 +5,7 @@ draft: false
 slug: null
 tags: ["newyear"]
 categories: ["things"]
-cover: "oseti_s.jpg"
+imgs: "oseti_s.jpg"
 
 archives: "2020"
 toc: false

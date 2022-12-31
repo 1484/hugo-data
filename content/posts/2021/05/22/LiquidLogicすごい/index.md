@@ -8,7 +8,7 @@ author: Keruru
 categories: ["cloud"]
 tags: ["iPad"]
 # showcase: true
-cover: "liquidlogic.jpg"
+imgs: "liquidlogic.jpg"
 
 archives: "2021"
 toc: true

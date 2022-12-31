@@ -4,7 +4,7 @@ date: 2018-01-01T00:00:00+09:00
 draft: false
 categories: ["things"]
 tags: ["newyear"]
-cover: "newyear2018.jpg"
+imgs: "newyear2018.jpg"
 slug: happynewyear2018
 archives: "2018"
 toc: false

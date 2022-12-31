@@ -4,7 +4,7 @@ date: 2019-09-01T23:25:32+09:00
 draft: false
 slug: 2度目のハワイ旅行
 categories: ["trip"]
-cover: "ocian.jpg"
+imgs: "ocian.jpg"
 archives: "2019"
 toc: true
 ---

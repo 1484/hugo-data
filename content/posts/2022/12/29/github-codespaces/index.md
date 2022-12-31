@@ -15,7 +15,7 @@ categories: ["computer"]
 # amazon, android, conoha, chromebook, ipad, linux, network, openstack,
 tags: ["ipad", "github"]
 # showcase: true
-cover: "github-codespaces.png"
+imgs: "github-codespaces.png"
 
 archives: "2022"
 toc: true

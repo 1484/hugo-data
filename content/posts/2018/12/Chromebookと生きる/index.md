@@ -2,7 +2,7 @@
 title: "Chromebookと生きる"
 date: 2018-12-31T22:37:07+09:00
 slug: "chromebookと生きる"
-cover: "chromebook.jpg"
+imgs: "chromebook.jpg"
 categories: ["gadget"]
 tags: ["chromebook"]
 archives: "2018"
