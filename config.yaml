@@ -129,6 +129,11 @@ menus:
       pageref: /archives
       pre: archive
       weight: 2
+    - identifier: journal
+      name: journal
+      pageref: /journal
+      pre: calendar
+      weight: 4
 
 #-----------------------------------------
 # Hugo NexT 主题参数配置
