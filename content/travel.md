@@ -49,3 +49,7 @@ url: travel.html
 | 2022 |  02 | 箱根温泉旅行                                                              |        |      |
 | 2022 |  06 | 大阪旅行                                                                  |        |      |
 | 2022 |  12 | [福岡旅行](/travel/2022/12/jal-dokokani-fuk/)                             |        |      |
+| 2023 |  01 | [ラグビー応援大阪旅行](/travel/2023/01/rugby-docomo-osk/)                 |        |      |
+| 2023 |  03 | [前橋散策温泉旅行](/travel/2023/03/maebashi-onsen-trip/)                  |        |      |
+| 2023 |  05 | [株主優待消化東北旅行](/travel/2023/05/jreast-kabuyu-tohoku)              |        |      |
+
