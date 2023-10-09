@@ -52,4 +52,5 @@ url: travel.html
 | 2023 |  01 | [ラグビー応援大阪旅行](/travel/2023/01/rugby-docomo-osk/)                 |        |      |
 | 2023 |  03 | [前橋散策温泉旅行](/travel/2023/03/maebashi-onsen-trip/)                  |        |      |
 | 2023 |  05 | [株主優待消化東北旅行](/travel/2023/05/jreast-kabuyu-tohoku)              |        |      |
+| 2023 |  09 | [北海道ツーリング2023](/travel/2023/09/hokkaido-touring2023)              |    ◯   |      |
 
