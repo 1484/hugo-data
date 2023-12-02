@@ -2,7 +2,7 @@ version: '3'
 services: 
     hugo:
         image: klakegg/hugo:0.101.0-ext-ubuntu
-        platform: linux/x86_64
+        #        platform: linux/x86_64
         volumes:
             - ".:/src"
         entrypoint: bash
