@@ -1,5 +1,5 @@
 ---
-title: ChromeOS flexを活用してLTE対応軽量chromebookを作る
+title: ChromeOS Flexを活用してLTE対応軽量chromebookを作る
 slug: chromeOSflex-LTE-mobile
 date: 2024-01-21T00:00:00+09:00
 lastmod: 2024-01-21T00:00:00+09:00
