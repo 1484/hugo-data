@@ -2,7 +2,7 @@
 title: ChromeOS Flexを活用してLTE対応軽量chromebookを作る
 slug: chromeOSflex-LTE-mobile
 date: 2024-01-21T00:00:00+09:00
-lastmod: 2024-01-21T00:00:00+09:00
+lastmod: 2024-01-23T10:00:00+09:00
 draft: false
 author: Keruru
 # authorlink: https://author.site
@@ -86,7 +86,7 @@ ChromeOS FlexはChromeOSではありますがChromebook用として特化して�
 
 使えない機能一覧
 - 指紋リーダー
-- Thunderboltの機能
+- Thunderbolt3の機能
 - 顔認識用赤外線（IR）カメラ
 - Androidアプリのインストール
 
@@ -138,3 +138,11 @@ PCの充電は寝るときだけ、と限定するのであればもっとコン
 
 インストールも簡単なので `軽くて持ち運びに便利なChromebookが欲しい！` って方はちょっと挑戦してみる価値はあるかと思います。
 
+## 使用感追記
+使っていると気づくこともあるもので3日位使ってみての気づいたこと。
+- トラックパッドを無効にできないのでキーボードでの入力中に思わぬマウス移動となることがある
+- ChromeOSはFunctionではなく機能キーがPrimaryなのでFn押さないでも機能キーが使える事になる。Fnロック相当。しかしシルク印刷と機能の位置が一致していないのでちょっと面倒。瞬時にミュートしたい時とかに困るかも。
+- USB-C Alt Modeは使える、USB-Cケーブルで4K外部モニタを拡張で使えた。mirrorも当然できる。便利。
+
+細々した点で不満はあるけれどそこに目を瞑ればいい感じではなかろうか。
+Chromebook化するキーボードシールとか作ったら売れたりしないかな（売れません
