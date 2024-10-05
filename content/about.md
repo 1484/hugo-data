@@ -2,8 +2,8 @@
 title: "about me"
 description: "about me"
 
-date: 2022-06-09T20:12:52+08:00
-lastmod: 2022-06-09T20:12:52+08:00
+date: 2022-06-09T20:12:52+09:00
+lastmod: 2024-10-05T02:12:52+09:00
 
 share: false
 followme: false
@@ -23,11 +23,14 @@ url: about.html
 # 愛用のPC
 - Apple MacBookAir(2020/M1)
 - Ryzen自作PC
-- SAMSUNG Chromebook Pro(妻に貸出中)
-- ThinkPad T440s(妹に貸出中)
-- GPD Pocket
+- FUJITSU Lifebook U9310/E(中古で購入)
+- CHUWI MiniBook(唯一のWindowsPC)
 
 <!--
+# 過去に使っていたPC
+- GPD Pocket
+- SAMSUNG Chromebook Pro(妻に貸出中)
+- ThinkPad T440s(妹に貸出中)
 - Surface Pro 4(故障)
 - NEC LAVIE ProMobile(売却)
 - HP Pavilion x2 10-n100(退役)
@@ -39,21 +42,28 @@ url: about.html
 
 # 愛車
 - MITSUBISHI PAJERO mini '2012
-- HONDA CRF250RALLY '2018
+- HONDA CrossCUB 110 '2023
 - MERIDA SCULTURA4000 '2015
 - Carry-Me '2016
 - GIOS PANTO '2007
 - R&M BD-1 '2006
 
+<!-- 
+# 過去の愛車
+- HONDA CRF250RALLY '2018
+
+-->
+
 # 愛用のSmartPhone/PDA
+- SAMSUNG GALAXY Z Fold5(MAIN/docomo)
+
+<!-- 
+# まだ使えるかもだけれど所有中コレクション
 - Google Pixel 6 Pro(MAIN/docomo/SIM FREE)
 - Unihertz TiTAN(SUB/docomo/SIM FREE)
 - OPPO Reno-A(SUB/rakuten/SIM FREE)
 - iPad Pro 11inch(SUB/docomo/SIM FREE)
-
-<!-- 
 - iPhoneSE 2nd(MAIN/docomo)
-- Xperia 1(MAIN/docomo/SO-03L)
 - Xperia XZ Premium(SUB/SIM FREE)
 - BlackBerry Priv(SUB/SIM FREE)
 - HUAWEI MediaPad M2(貸し出し中/SIM FREE)
@@ -70,8 +80,11 @@ url: about.html
 - Xperia mini pro(退役/SIM FREE)
 - Nokia N8(退役/SIM FREE)
 - HTC Hero(退役/SIM FREE)
+
+# 売却済み
+- Xperia 1(MAIN/docomo/SO-03L)
+
 -->
 
 # 雑記
 [雑多な記録](/journal/)についてはメインコンテンツから除外した
-
