@@ -1,7 +1,7 @@
 ---
 title: バンコクチェンマイ旅行2024
 date: 2023-09-25T00:00:00+09:00
-lastmod: 2024-10-05T03:51:00+09:00
+lastmod: 2024-11-24T08:15:00+09:00
 draft: false
 author: Keruru
 
@@ -11,11 +11,11 @@ categories: ["trip"]
 
 # よく使うtag
 # amazon, android, conoha, chromebook, ipad, linux, network, openstack, CROSSCUB,
-tags: ["android"]
+tags: ["Thailand", "Chang mai", "train", "suit"]
 
 # showcase: true
 # cover: "cover.jpg"
-cover: "20231008_223441.png"
+cover: "20240915_201931.jpg"
 
 # 画像貼り付けメモ
 # {{< fancybox "." "<filename>" "<alt message>" "gallery" >}}
