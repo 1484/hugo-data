@@ -32,3 +32,14 @@ $ git checkout master  # masterブランチに戻る
 $ git branch -d new-branch  # 編集に用いた new-branch を削除する
 $ git pull
 ```
+
+## 画像をリサイズする
+
+写真を撮って出ししても良いですがBlogの写真にそこまで高解像度な写真は要りません。減色まではしなくても良いかと思うので、今の所は次のとおり。
+
+```shell
+convert -resize 1280x1024 original.jpg new.jpg
+```
+
+ファイル名を同名にしたら上書き保存される。
+
