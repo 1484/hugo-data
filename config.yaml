@@ -795,7 +795,7 @@ params:
   # Waline comments system
   # More info seee: https://waline.js.org/
 
- waline:
+  waline:
     pageView: true
     comment: true
     placeholder: "マナーを守ってコメントしてね ヾ(≧▽≦*)o"
