@@ -3,7 +3,7 @@ title: "about me"
 description: "about me"
 
 date: 2022-06-09T20:12:52+09:00
-lastmod: 2024-10-05T02:12:52+09:00
+lastmod: 2026-05-03T08:12:52+09:00
 
 share: false
 followme: false
@@ -21,13 +21,15 @@ url: about.html
 テクニカルライティング／システムエンジニア／ネットワークエンジニア
 
 # 愛用のPC
+- DELL XPS13 9345(2025/Snapdragon X Elite)
 - Apple MacBookAir(2020/M1)
 - Ryzen自作PC
-- FUJITSU Lifebook U9310/E(中古で購入)
-- CHUWI MiniBook(唯一のWindowsPC)
+- hp EliteDesk 800 G4 DM(中古で購入、Proxmoxを入れて自宅サーバーとして活躍中)
 
 <!--
 # 過去に使っていたPC
+- CHUWI MiniBook(唯一のWindowsPC)
+- FUJITSU Lifebook U9310/E(中古で購入)
 - GPD Pocket
 - SAMSUNG Chromebook Pro(妻に貸出中)
 - ThinkPad T440s(妹に貸出中)
@@ -56,6 +58,7 @@ url: about.html
 
 # 愛用のSmartPhone/PDA
 - SAMSUNG GALAXY Z Fold5(MAIN/docomo)
+- Apple iPad mini(A17pro/SIM FREE)
 
 <!-- 
 # まだ使えるかもだけれど所有中コレクション
