@@ -763,12 +763,12 @@ params:
   comments:
     # 开启评论组件
     # If true, will show comment component in post end.
-    enable: false   
+    enable: true
     # 设置默认使用的评论插件
     # 可选值：livere | waline | utterances | artalk | giscus
     # Choose a comment system to be displayed by default.
     # Available values: livere | waline | utterances | artalk | giscus 
-    active: giscus
+    active: waline
     # 让用户自己选择使用评论插件留言
     # 如果设置为 false，将采用 active 参数的那个插件
     # Setting `true` means remembering the comment system selected by 
@@ -784,29 +784,30 @@ params:
       - name: waline
         title: Waline
         color: "#27ae60"
-        weight: 2
-      - name: giscus
-        title: Giscus
-        color: "#886ce4"
         weight: 1
+#      - name: giscus
+#        title: Giscus
+#        color: "#886ce4"
+#        weight: 1
 
   # Waline 评论插件
   # 更多配置信息请参考：https://waline.js.org/
   # Waline comments system
   # More info seee: https://waline.js.org/
-  waline:
+
+ waline:
     pageView: true
     comment: true
-    placeholder: "请文明发言哟 ヾ(≧▽≦*)o"
-    sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
+    placeholder: "マナーを守ってコメントしてね ヾ(≧▽≦*)o"
+    sofa: "あなたの意見を聞かせてください (≧∀≦)ゞ"
     emoji: false
     imgUploader: false
     wordLimit: 200
     requiredMeta: ['nick', 'mail']
     reaction: true
-    reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
-    reactionTitle: "你认为这篇文章怎么样？"
-    serverURL: #<your waline server url>
+    reactionText: [ 'いいね', 'うーん', 'ドヤ顔', 'フンッ', '気まずい', 'おやすみ']
+    reactionTitle: "この記事はどうでしたか？"
+    serverURL: https://hugo-comment-eight.vercel.app
 
   # Artalk 评论插件
   # 更多配置信息请参考：https://artalk.js.org
