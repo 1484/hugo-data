@@ -6,8 +6,8 @@ title: Keruru memo
 theme: hugo-theme-next
 # 站点默认的语言和代码
 # Default laguage & code for website
-defaultContentLanguage: en
-languageCode: en
+defaultContentLanguage: ja
+languageCode: ja
 # 是否包含中文，日语，韩文
 # Whether contains Chinese, Japanese and Korean
 hasCJKLanguage: true
@@ -160,7 +160,7 @@ params:
 
   # 开启暗模式
   # Dark Mode
-  darkmode: false
+  darkmode: true
 
 
   # 站点基本信息
@@ -611,7 +611,7 @@ params:
     enable: true
     # 你的 Github 仓库地址
     # Your repository url on Github.
-    permalink: https://github.com/hugo-next
+    permalink: https://github.com/1484/hugo-data/
     # 关注说明
     # Show this title when cursor move on.
     title: Follow me on GitHub
@@ -720,7 +720,7 @@ params:
   # FancyBox is a tool that offers a nice and elegant way 
   # to add zooming functionality for images.
   # For more information: https://fancyapps.com/fancybox/
-  fancybox: false
+  fancybox: true
 
   # TODO
   # Vanilla JavaScript plugin for lazyloading images.
@@ -916,7 +916,7 @@ params:
     #baidu: #<anaytics_id>
     # 谷歌统计
     # Google Analytics
-    google: #292605625
+    google: 292605625
     # 不蒜子统计
     # Show Views / Visitors of the website / page with busuanzi.
     # For more information: http://ibruce.info/2015/04/04/busuanzi/
