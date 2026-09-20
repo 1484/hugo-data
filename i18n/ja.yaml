@@ -1,0 +1,177 @@
+#--------------------------------------
+# Japanese Version
+#--------------------------------------
+archives:
+  other: 記事
+tag:
+  other: タグ
+tags:
+  other: タグ
+TagTitle:
+  other: タグ一覧
+category:
+  other: カテゴリ
+categories:
+  other: カテゴリ
+CateTitle:
+  other: カテゴリ一覧
+AllSome:
+  other: "全ての {{ .Some }}"
+
+NavToggleLabel:
+  other: ナビゲーションバーを切り替える
+
+MSearchLabel:
+  other: 検索
+
+SymbolColon:
+  other: "："
+SymbolComma:
+  other: "、"
+SymbolPeriod:
+  other: "。"
+
+SbPostsLable:
+  other: "記事"
+SbCatesTitle:
+  other: "カテゴリ"
+SbTagsTitle:
+  other: "タグ"
+TableOfContents:
+  other: "目次"
+SiteOverview:
+  other: "概要"
+RSSLable:
+  other: "RSS 購読"
+CCLinkTitle:
+  other: "クリエイティブ・コモンズ"
+
+TagsCounterTitle:
+  zero: タグなし
+  other: "合計 {{ .Count }} タグ"
+CatesCounterTitle:
+  zero: カテゴリなし
+  other: "合計 {{ .Count }} カテゴリ"
+ArchiveCounterTitle:
+  zero: 記事なし
+  other: "合計 {{ .Count }} 記事"
+
+PostArchiveCheersUm:
+  other: うーん..
+PostArchiveCheersOk:
+  other: OK
+PostArchiveCheersNice:
+  other: いいね
+PostArchiveCheersGood:
+  other: グッド
+PostArchiveCheersGreat:
+  other: すごい
+PostArchiveCheersExcellent:
+  other: 最高
+PostArchiveKeepOn:
+  other: 投稿を続けよう！╰(*°▽°*)╯
+
+PostStickyTitle:
+  other: ピン留め
+PostPublishDate:
+  other: "公開日"
+PostPublishTime:
+  other: "作成日時"
+PostLastModDate:
+  other: "更新日"
+PostLastModTime:
+  other: "更新日時"
+PostCategory:
+  other: "カテゴリ"
+PostWords:
+  other: "文字数"
+PostWordCount:
+  other: "{{- .WordCount -}}"
+PostReading:
+  other: "読了"
+PostReadTime:
+  other: "{{- .ReadingTime -}}分"
+PostViews:
+  other: "閲覧数"
+PostComments:
+  other: "コメント"
+PostTag:
+  other: "タグ"
+PostReadMore:
+  other: "続きを読む"
+PostEditTitle:
+  other: この記事を編集する
+
+PostCRTitle:
+  other: 記事タイトル
+PostCRAuthor:
+  other: 記事著者
+PostCRLink:
+  other: 記事リンク
+PostCROriginAuthor:
+  other: 原著者
+PostCROriginLink:
+  other: 原文リンク
+PostCRLicenseTitle:
+  other: 著作権表記
+PostCRLicenseContent:
+  other: "このブログの全記事は特に記載がない限り、<i class=\"fab fa-fw fa-creative-commons\"></i>%s ライセンスの下に提供されています。"
+
+PostFollowMe:
+  other: 他のチャンネルもよろしくお願いします
+
+RewardDonate:
+  other: 寄付する
+RewardWechatpay:
+  other: WeChat Pay
+RewardAlipay:
+  other: Alipay
+RewardPaypal:
+  other: PayPal
+RewardBitcoin:
+  other: Bitcoin
+
+PostCommentTitle:
+  other: コメント
+
+SiteInfoItems:
+  title: "サイト情報"
+  runTimes: "運営期間："
+  words: "総文字数："
+  readTimes: "読了時間："
+  visitors: "訪問者数："
+  pageViews: "ページビュー："
+  todayViews: "本日のビュー："
+  yesterdayViews: "昨日のビュー："
+  monthViews: "月間ビュー："
+  totalViews: "総ビュー数"
+  lastUpdate: "最終更新："
+
+FooterPowerby:
+  other: "%s で動作中"
+
+SearchPh:
+  other: 検索中...
+SearchEmpty:
+  other: "「${query}」の検索結果はありませんでした"
+SearchHits:
+  hits: "${hits} 件見つかりました"
+SearchHitsTime:
+  other: "${hits} 件（${time} ms）"
+
+DateSuffix:
+  years: "年"
+  days: "日"
+  hours: "時間"
+  mins: "分"
+  month: "ヶ月前"
+  day: "日前"
+  hour: "時間前"
+  min: "分前"
+  just: "たった今"
+
+ToolBtns:
+  comment: "コメントへ"
+  theme: "テーマ変更"
+  lang: "多言語翻訳"
+  backTop: "トップへ戻る"
