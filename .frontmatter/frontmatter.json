@@ -1,0 +1,77 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Posts",
+      "path": "[[workspace]]/content/posts",
+      "filePrefix": "{{date|yyyy}}/{{date|MM}}/",
+      "contentTypes": [
+        "bundle-post"
+      ]
+    },
+    {
+      "title": "Journal",
+      "path": "[[workspace]]/content/journal",
+      "filePrefix": "{{date|yyyy}}/{{date|MM}}/",
+      "contentTypes": [
+        "bundle-post"
+      ]
+    },
+    {
+      "title": "Travel",
+      "path": "[[workspace]]/content/travel",
+      "filePrefix": "{{date|yyyy}}/{{date|MM}}/",
+      "contentTypes": [
+        "bundle-post"
+      ]
+    }
+  ],
+  "frontMatter.taxonomy.allowCustomValues": true,
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "bundle-post",
+      "pageBundle": true,
+      "previewPath": "posts",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "title": "Publish Date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isCurrentDate": true
+        },
+        {
+          "title": "Draft Status",
+          "name": "draft",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "Feature Image",
+          "name": "image",
+          "type": "image",
+          "isValueRelative": true
+        }
+      ]
+    }
+  ]
+}
