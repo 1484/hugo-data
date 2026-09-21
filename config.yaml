@@ -1,7 +1,6 @@
 baseURL: "https://keruru.net/"
 # Website title
 title: Keruru memo
-# 主题名称
 # Theme name
 theme: hugo-theme-next
 # 站点默认的语言和代码
@@ -14,6 +13,8 @@ hasCJKLanguage: true
 # 每页显示文章数量
 # Display items per page
 paginate: 10
+# 記事の概要に表示する単語数（デフォルトは70）
+summaryLength: 150
 # 开启支持表情符号
 # Enable Emoji support
 enableEmoji: true
