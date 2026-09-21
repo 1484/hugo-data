@@ -1,7 +1,6 @@
 ---
 title: "旅記録"
 url: travel.html
-url: travel.html
 ---
 
 [最新記事はこちら](/travel/)

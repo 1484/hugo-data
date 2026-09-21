@@ -6,7 +6,8 @@ theme: hugo-theme-next
 # 站点默认的语言和代码
 # Default laguage & code for website
 defaultContentLanguage: ja
-languageCode: ja
+# languageCode: ja
+locale: ja
 # 是否包含中文，日语，韩文
 # Whether contains Chinese, Japanese and Korean
 hasCJKLanguage: true
@@ -151,6 +152,8 @@ params:
   monthFormat: "01-02"
   dateFormat: "2006-01-02"
   timeFormat: "2006-01-02T15:04:05-07:00"
+  email: "takeru@1974.jp"
+  name: "Keruru"
 
   # 页面模式
   # Schemes

@@ -6,7 +6,6 @@ categories: ["cloud"]
 tags: ["OpenStack","devstack","ocata","linux"]
 slug: qucik-devstack-ocata
 imgs: "OpenStack.jpg"
-tags: ["DevStack", "OpenStack"]
 archives: "2018"
 toc: true
 ---

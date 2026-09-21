@@ -5,7 +5,6 @@ draft: false
 categories: ["computer"]
 tags: ["chromebook","Surface","SurfacePro4","linux"]
 imgs: "chromebook.jpg"
-tags: ["chromebook", "Linux"]
 archives: "2018"
 toc: true
 ---
