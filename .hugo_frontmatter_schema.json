@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "date": { "type": "string" },
+    "draft": { "type": "boolean" },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Hugo",
+          "VSCode",
+          "Linux",
+          "Python",
+          "ガジェット",
+          "amazon",
+          "android",
+          "conoha",
+          "chromebook",
+          "ipad",
+          "network",
+          "openstack"
+        ]
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "cloud",
+          "computer",
+          "cycle",
+          "gadget",
+          "things",
+          "trip",
+          "雑記",
+          "ライフハック"
+        ]
+      }
+    }
+  }
+}
